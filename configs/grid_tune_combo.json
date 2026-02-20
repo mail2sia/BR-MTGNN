@@ -1,0 +1,35 @@
+{
+  "run_tag_prefix": "tune_combo",
+  "runs_dir": "runs",
+  "targets": {
+    "rse": 0.6,
+    "rae": 0.6
+  },
+  "score": {
+    "w_rse": 0.5,
+    "w_rae": 0.5,
+    "w_ci": 0.15
+  },
+  "base_args": [
+    "--data", "data/sm_data_g.csv",
+    "--graph", "data/graph_topk_k12.csv",
+    "--train", "--trainer_mode", "--device", "cuda:0",
+    "--no_cleanup",
+    "--has_header", "--drop_first_col",
+    "--epochs", "200", "--batch_size", "8", "--clip", "5.0",
+    "--residual_channels", "64", "--skip_channels", "128", "--end_channels", "256", "--conv_channels", "32",
+    "--loss_beta", "0.0",
+    "--no_vectorized_mc",
+    "--conformal", "--conf_alpha", "0.1", "--conf_calibrate",
+    "--auto_tune_dropout", "--auto_dropout_target", "0.20",
+    "--plot_mode", "auto",
+    "--plot_top_k", "25"
+  ],
+  "grid": {
+    "loss_gamma": [0.5, 0.6, 0.7],
+    "mae_weight": [0.2, 0.3, 0.4],
+    "dropout": [0.03, 0.05, 0.08],
+    "lr": [0.0001, 0.0002, 0.0003],
+    "mc_runs": [20, 30, 40]
+  }
+}

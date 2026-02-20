@@ -1,0 +1,13 @@
+metric,value
+total_edges,1045
+variance_floor,4.7310518311860505e-06
+raw_amp_mean,4070.7076917284103
+raw_amp_median,0.1772172749042511
+raw_amp_q95,3539.6894042968706
+raw_amp_q99,81178.60343749881
+floored_amp_mean,443.78667701194485
+floored_amp_median,0.1772172749042511
+floored_amp_q95,2559.893261718738
+floored_amp_q99,13498.8779296875
+uncertainty_corr_mean,0.194540425159673
+uncertainty_corr_median,0.14572274018019085

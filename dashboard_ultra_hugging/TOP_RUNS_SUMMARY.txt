@@ -1,0 +1,51 @@
+================================================================================
+HYPERPARAMETER SEARCH - TOP RUNS DASHBOARD
+Total trials completed: 8
+Top 8 runs tracked
+================================================================================
+
+RANK 1: ultra_hugging_20260220-161137_005
+  Score: 0.309306  RSE: 0.402637  RAE: 0.193497  CI: nan
+  Params: lr=0.0008, batch_size=16, layers=5, gcn_depth=2, conv_channels=96, residual_channels=96, skip_channels=192, end_channels=384, dropout=0.0, clip=5.0, node_dim=80, subgraph_size=40, propalpha=0.05, tanhalpha=3
+  Plots: rank01_ultra_hugging_20260220-161137_005/
+
+RANK 2: ultra_hugging_20260220-162825_006
+  Score: 0.313792  RSE: 0.406526  RAE: 0.199646  CI: nan
+  Params: lr=0.0008, batch_size=16, layers=5, gcn_depth=2, conv_channels=96, residual_channels=96, skip_channels=192, end_channels=384, dropout=0.0, clip=8.0, node_dim=80, subgraph_size=40, propalpha=0.05, tanhalpha=3
+  Plots: rank02_ultra_hugging_20260220-162825_006/
+
+RANK 3: ultra_hugging_20260220-155522_004
+  Score: 0.314378  RSE: 0.408111  RAE: 0.198604  CI: nan
+  Params: lr=0.0005, batch_size=32, layers=5, gcn_depth=2, conv_channels=96, residual_channels=96, skip_channels=192, end_channels=384, dropout=0.0, clip=8.0, node_dim=80, subgraph_size=40, propalpha=0.05, tanhalpha=3
+  Plots: rank03_ultra_hugging_20260220-155522_004/
+
+RANK 4: ultra_hugging_20260220-152252_002
+  Score: 0.316343  RSE: 0.411958  RAE: 0.197624  CI: nan
+  Params: lr=0.0005, batch_size=16, layers=5, gcn_depth=2, conv_channels=96, residual_channels=96, skip_channels=192, end_channels=384, dropout=0.0, clip=8.0, node_dim=80, subgraph_size=40, propalpha=0.05, tanhalpha=3
+  Plots: rank04_ultra_hugging_20260220-152252_002/
+
+RANK 5: ultra_hugging_20260220-170103_008
+  Score: 0.317824  RSE: 0.413308  RAE: 0.199540  CI: nan
+  Params: lr=0.0008, batch_size=32, layers=5, gcn_depth=2, conv_channels=96, residual_channels=96, skip_channels=192, end_channels=384, dropout=0.0, clip=8.0, node_dim=80, subgraph_size=40, propalpha=0.05, tanhalpha=3
+  Plots: rank05_ultra_hugging_20260220-170103_008/
+
+RANK 6: ultra_hugging_20260220-164505_007
+  Score: 0.320351  RSE: 0.415815  RAE: 0.202463  CI: nan
+  Params: lr=0.0008, batch_size=32, layers=5, gcn_depth=2, conv_channels=96, residual_channels=96, skip_channels=192, end_channels=384, dropout=0.0, clip=5.0, node_dim=80, subgraph_size=40, propalpha=0.05, tanhalpha=3
+  Plots: rank06_ultra_hugging_20260220-164505_007/
+
+RANK 7: ultra_hugging_20260220-150629_001
+  Score: 0.320731  RSE: 0.415918  RAE: 0.203370  CI: nan
+  Params: lr=0.0005, batch_size=16, layers=5, gcn_depth=2, conv_channels=96, residual_channels=96, skip_channels=192, end_channels=384, dropout=0.0, clip=5.0, node_dim=80, subgraph_size=40, propalpha=0.05, tanhalpha=3
+  Plots: rank07_ultra_hugging_20260220-150629_001/
+
+RANK 8: ultra_hugging_20260220-153917_003
+  Score: 0.321553  RSE: 0.417193  RAE: 0.203535  CI: nan
+  Params: lr=0.0005, batch_size=32, layers=5, gcn_depth=2, conv_channels=96, residual_channels=96, skip_channels=192, end_channels=384, dropout=0.0, clip=5.0, node_dim=80, subgraph_size=40, propalpha=0.05, tanhalpha=3
+  Plots: rank08_ultra_hugging_20260220-153917_003/
+
+
+================================================================================
+To stop the search when satisfied with plots:
+  Create file: /home/sahsan03/trustworthy-graph-neural-time-series-forecasts-main/dashboard_ultra_hugging/STOP_SEARCH
+================================================================================

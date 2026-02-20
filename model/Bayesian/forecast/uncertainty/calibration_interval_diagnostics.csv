@@ -1,0 +1,3 @@
+source_file,samples,target_coverage,picp,ace,mpiw
+model/Bayesian/forecast/calibration_interval_samples_recalibrated.csv,1425,0.95,0.22456140350877193,-0.725438596491228,8.187804762391668
+model/Bayesian/forecast/calibration_interval_samples.csv,1425,0.95,0.020350877192982456,-0.9296491228070175,0.6823170635226314
