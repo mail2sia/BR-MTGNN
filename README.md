@@ -1,14 +1,13 @@
 # B-MTGNN: Bayesian Multi-Temporal Graph Neural Network
 
-**Version:** 0.2.0  
-**Rating:** 9.0/10 (STRUCTURALLY STRONG, TRULY CALIBRATED)  
-**Last Updated:** February 19, 2026
+**Version:** 0.1.0  
+**Last Updated:** February 20, 2026
 
 Trustworthy graph neural network for mental health forecasting with comprehensive uncertainty quantification and near-perfect calibration (PICP=0.9198).
 
 ---
 
-## 🎯 Key Results
+## Key Results
 
 - **Calibration Excellence:** PICP=0.9198 (only 3.0pp from 0.95 target)
 - **Calibration Error:** ACE=-0.0302 (near-perfect)
@@ -18,7 +17,7 @@ Trustworthy graph neural network for mental health forecasting with comprehensiv
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
@@ -69,7 +68,7 @@ Trustworthy graph neural network for mental health forecasting with comprehensiv
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -79,26 +78,11 @@ python --version
 
 # Install dependencies
 pip install -r requirements.txt
-
-# Navigate to project root
-cd C:\B-MTGNN_31.01.2026\trustworthy-graph-neural-time-series-forecasts-main
-```
-
-### Verify Data Files
-
-```powershell
-# Check required files exist
-ls data/sm_data_g.csv      # Smoothed data (or run Phase 0 if missing)
-ls data/nodes.csv          # Node metadata
-ls data/graph_topk_k12.csv # Graph adjacency (or run Phase 1 if missing)
-
-# If starting from scratch (optional):
-# ls data/data.csv         # Raw data (needed only if creating smoothed data)
 ```
 
 ---
 
-## 📋 Complete Pipeline (Step-by-Step)
+## Complete Pipeline (Step-by-Step)
 
 ### **Phase 0: Data Preparation** *(Optional if smoothed data exists)*
 
@@ -120,8 +104,6 @@ python src/smoothing.py
 - `data/sm_data.csv` - Smoothed data (no headers, 264 rows × 95 columns)
 - `data/sm_data_g.csv` - Smoothed data (with column headers, used by pipeline)
 
-**Runtime:** ~5 seconds
-
 **Smoothing Module:** Uses `src/smoothing.py` which provides:
 - `exponential_smoothing()` - Single exponential smoothing (alpha parameter)
 - `double_exponential_smoothing()` - Holt's method (alpha, beta parameters)
@@ -141,8 +123,6 @@ python scripts/create_graph.py
 - `data/graph_square.csv` - Multi-hop connections
 - `data/graph_symnorm.csv` - Symmetric normalized
 
-**Runtime:** ~10 seconds
-
 ---
 
 ### **Phase 2: Model Training** *(Optional if model exists)*
@@ -161,8 +141,6 @@ python scripts/grid_tuning.py --config configs/grid_ultra_hugging.json
 - `model/Bayesian/model.pt` - Trained weights
 - `model/Bayesian/metrics_validation.json` - Validation metrics
 - `model/Bayesian/y_scaler.pt` - Data scaler
-
-**Runtime:** 30-60 mins (GPU), 2-4 hours (CPU)
 
 **Expected Metrics:**
 - Validation RSE < 0.50
@@ -193,8 +171,6 @@ python scripts/forecast.py --checkpoint model/Bayesian/model.pt --data data/sm_d
 - `calibration_interval_samples.csv` - For recalibration (7,980 samples)
 - `plots_grouped/` - **48 mental health condition plots** (PDF + PNG) showing historical data (2004-2025) + forecast (2026-2028) with related treatment solutions *(auto-generated for 36-month forecasts)*
 
-**Runtime:** 10-15 minutes
-
 ---
 
 ### **Phase 4: Interval Calibration**
@@ -224,8 +200,6 @@ After results of interval recalibration: picp=0.9198, mpiw=197.9686
 - `calibration_recalibration_summary.csv` - Metrics by group
 - `calibration_recalibration_summary_tuning.csv` - Cap tuning results
 
-**Runtime:** ~30 seconds
-
 #### Step 4.2: Generate Calibration Diagnostics
 ```powershell
 python scripts/uncertainty_calibration_diagnostics.py --input-raw model/Bayesian/forecast/calibration_interval_samples.csv --input-recal model/Bayesian/forecast/calibration_interval_samples_recalibrated.csv --output-dir model/Bayesian/forecast/uncertainty --max-horizon 6
@@ -241,8 +215,6 @@ python scripts/uncertainty_calibration_diagnostics.py --input-raw model/Bayesian
 - `calibration_pit_hist_raw.pdf` & `calibration_pit_hist_recalibrated.pdf`
 - `calibration_interval_coverage_by_horizon.csv`
 - `calibration_interval_diagnostics.csv`
-
-**Runtime:** ~20 seconds
 
 ---
 
@@ -264,8 +236,6 @@ python scripts/plot_uncertainty_insights.py
 - `uncertainty_metrics_relationship.pdf` - Variance vs CI scatter
 - `uncertainty_edge_patterns.pdf` - Edge amplification histogram
 
-**Runtime:** 1-2 minutes
-
 #### Step 5.2: Generate Hop Dispersion Plots
 ```powershell
 python plot_uncertainty_hops.py
@@ -280,8 +250,6 @@ python plot_uncertainty_hops.py
 - `uncertainty_hop_dispersion.pdf` - Simplified std ratio plot
 - `uncertainty_hop_comprehensive.pdf` - 4-panel analysis
 
-**Runtime:** ~30 seconds
-
 #### Step 5.3: Compare Propagation Modes
 ```powershell
 python generate_all_propagation_modes.py
@@ -295,8 +263,6 @@ python generate_all_propagation_modes.py
 
 **Outputs:**
 - `uncertainty_modes_comparison.pdf` - 4-panel mode comparison
-
-**Runtime:** ~30 seconds
 
 ---
 
@@ -321,11 +287,9 @@ python scripts/run_baseline_ablation.py --data data/sm_data_g.csv --seq-len 24 -
 - Persistence typically strongest on internal test split
 - Model must beat all baselines
 
-**Runtime:** ~1 minute
-
 ---
 
-## 🎯 Verification Commands
+## Verification Commands
 
 ### Check Calibration Results
 ```powershell
@@ -369,7 +333,7 @@ if ($missing) { Write-Host "Missing: $missing" -ForegroundColor Red } else { Wri
 
 ---
 
-## ⚡ Full Pipeline Script
+## Full Pipeline Script
 
 **Save as `run_full_pipeline.ps1`:**
 
@@ -437,23 +401,7 @@ python -c "import pandas as pd; df = pd.read_csv('model/Bayesian/forecast/uncert
 
 ---
 
-## ⏱️ Expected Runtimes
-
-| Phase | Time (CPU) | Time (GPU) | Can Skip if Exists |
-|-------|-----------|-----------|-------------------|
-| 0. Data smoothing | 5 seconds | 5 seconds | ✓ |
-| 1. Graph creation | 10 seconds | 10 seconds | ✓ |
-| 2. Model training | 2-4 hours | 30-60 mins | ✓ |
-| 3. Forecasting (mc_runs=50) | 10-15 mins | 5-8 mins | ✗ |
-| 4. Calibration | 30 seconds | 30 seconds | ✗ |
-| 5. Visualization | 2 mins | 2 mins | ✗ |
-| 6. Baseline eval | 1 min | 1 min | ✓ |
-| **Total (skip training)** | **15-20 mins** | **10-15 mins** | |
-| **Total (with training)** | **2.5-4.5 hours** | **45-75 mins** | |
-
----
-
-## 📊 Key Metrics & Results
+## Key Metrics & Results
 
 ### Model Performance
 - **Validation RSE:** < 0.50 (good)
@@ -485,11 +433,11 @@ python -c "import pandas as pd; df = pd.read_csv('model/Bayesian/forecast/uncert
 
 ---
 
-## 📚 Documentation
+## Documentation
 
 ### Primary Documentation
 - **`model/Bayesian/forecast/uncertainty/readme_Uncertainty_plots.md`**
-  - Comprehensive uncertainty analysis (9.0/10 rating)
+  - Comprehensive uncertainty analysis 
   - All metrics, interpretations, and plot descriptions
   - Calibration strategy and tradeoffs
   - Baseline comparisons
@@ -518,7 +466,7 @@ Located in `model/Bayesian/forecast/plots_grouped/`:
 
 ---
 
-## 🎓 Key Features
+## Key Features
 
 ### Bayesian Uncertainty Quantification
 - **Monte Carlo Dropout:** 50 iterations per prediction
@@ -526,7 +474,7 @@ Located in `model/Bayesian/forecast/plots_grouped/`:
 - **Horizon/Category-Wise Calibration:** Grouping by forecast horizon and node category
 
 ### Graph Neural Network Architecture
-- **Optimized Defaults (v0.2.0):**
+- **Optimized Defaults (v0.1.0):**
   - Layers: 5, Dilation: 2 (receptive field: 187 steps)
   - Loss: MAE-dominant (alpha=0.5, mae_weight=10.0)
   - Normalization: Per-node z-score (normalize=3)
@@ -573,7 +521,7 @@ head data/nodes.csv
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 This project uses optimized hyperparameters from extensive grid search. Key configuration files:
 - `configs/grid_tune_hugging_best.json` - Best single configuration
@@ -581,7 +529,7 @@ This project uses optimized hyperparameters from extensive grid search. Key conf
 
 ---
 
-## 📧 Support
+## Support
 
 For questions about:
 - **Uncertainty analysis:** See `model/Bayesian/forecast/uncertainty/readme_Uncertainty_plots.md`
@@ -592,10 +540,9 @@ For questions about:
 
 ## 📄 License
 
-Please refer to the project license file for usage terms.
+MIT License.
 
 ---
 
-**Last Updated:** February 19, 2026  
-**Model Version:** B-MTGNN v0.2.0  
-**Overall Rating:** 9.0/10 (STRUCTURALLY STRONG, TRULY CALIBRATED)
+**Last Updated:** February 20, 2026  
+**Model Version:** B-MTGNN v0.1.0  
