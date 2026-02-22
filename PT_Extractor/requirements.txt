@@ -1,0 +1,11 @@
+openai
+requests
+bs4
+selenium
+webdriver-manager
+pandas
+numpy
+elsapy
+tqdm
+json
+time

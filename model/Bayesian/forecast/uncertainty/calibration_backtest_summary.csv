@@ -1,3 +1,3 @@
-split,RSE,RAE,Corr,sMAPE,conformal_enabled,conf_alpha,conf_calibrate
-Validation,0.4133082087056234,0.1995399001305916,0.5083402335941392,20.010093942837784,True,0.05,True
-Testing,2.5252050915336506,3.0117735862731934,0.06431937560309565,0.31432005763053894,True,0.05,True
+version https://git-lfs.github.com/spec/v1
+oid sha256:a4b5dd7b63bd8bcd69a43ace51629cf09250b23f665b4bbd2b2abf861cc96d0c
+size 272

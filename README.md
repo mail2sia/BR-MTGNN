@@ -54,6 +54,7 @@ Trustworthy graph neural network for mental health forecasting with comprehensiv
 │       ├── calibration_interval_samples.csv  # Raw intervals
 │       ├── calibration_interval_samples_recalibrated.csv  # Recalibrated
 │       ├── plots_grouped/         # Grouped condition+treatment plots (48 PDFs + 48 PNGs)
+│       ├── enhanced_viz/          # Enhanced visualizations (heatmaps, dashboards)
 │       └── uncertainty/           # Uncertainty analysis
 │           ├── readme_Uncertainty_plots.md    # Comprehensive docs (9.0/10)
 │           ├── node_uncertainty.csv           # Node-level metrics
@@ -195,6 +196,14 @@ python scripts/forecast.py --checkpoint model/Bayesian/model.pt --data data/sm_d
 
 **Runtime:** 10-15 minutes
 
+#### Generate Calibration Samples (If Missing)
+If `calibration_interval_samples.csv` was not created by `forecast.py`, generate it separately:
+```powershell
+python scripts/generate_interval_backtest.py --output model/Bayesian/forecast/calibration_interval_samples.csv
+```
+
+**Note:** This creates calibration samples from historical backtests for interval recalibration. Required before running Phase 4.
+
 ---
 
 ### **Phase 4: Interval Calibration**
@@ -295,6 +304,22 @@ python generate_all_propagation_modes.py
 
 **Outputs:**
 - `uncertainty_modes_comparison.pdf` - 4-panel mode comparison
+
+**Runtime:** ~30 seconds
+
+#### Step 5.4: Generate RMD-Treatment Heatmap
+```powershell
+python scripts/forecast_viz.py --mode heatmap
+```
+
+**What this does:**
+- Creates gap analysis heatmap showing differences between RMD conditions and treatment solutions
+- Visualizes forecast relationships across all 48 RMD conditions and 44 treatment technologies
+- Identifies which treatments most effectively address specific conditions
+
+**Outputs:**
+- `enhanced_viz/heatmap_gap_analysis.png` - High-resolution heatmap (PNG)
+- `enhanced_viz/heatmap_gap_analysis.pdf` - Publication-quality heatmap (PDF)
 
 **Runtime:** ~30 seconds
 
@@ -418,6 +443,7 @@ Write-Host "`n[5/6] Creating uncertainty plots..." -ForegroundColor Yellow
 python scripts/plot_uncertainty_insights.py
 python plot_uncertainty_hops.py
 python generate_all_propagation_modes.py
+python scripts/forecast_viz.py --mode heatmap
 
 # Phase 6: Baseline Evaluation
 Write-Host "`n[6/6] Running baseline comparisons..." -ForegroundColor Yellow
