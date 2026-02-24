@@ -24,7 +24,7 @@ import pandas as pd
 
 # configs
 
-openai.api_key = "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"  # place your key here.
+openai.api_key = ""  # place your key here.
 
 ## Load configuration
 with open("config.json") as con_file:
