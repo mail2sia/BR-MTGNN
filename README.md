@@ -1,4 +1,4 @@
-# B-MTGNN: Bayesian Multi-Temporal Graph Neural Network
+# BR-MTGNN: Bayesian-Recalibrated Multivariate Temporal Graph Neural Network.
 
 **Version:** 0.1.0    
 **Last Updated:** February 20, 2026
