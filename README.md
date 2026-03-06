@@ -6,6 +6,13 @@
 Trustworthy graph neural network for mental health forecasting with comprehensive uncertainty quantification and near-perfect calibration (PICP=0.9198).
 
 ---
+## Framework Overview
+
+![BR-MTGNN Framework](infograph.png)
+
+*Mapping the Future of Rare Mental Health: AI-Driven Forecasting with BR-MTGNN. The framework integrates multi-source signal ingestion (PubMed, patents, news, social media), generates 36-month forecasts with calibrated uncertainty quantification, and achieves 91.98% empirical coverage across 95 nodes and 264 months of training data.*
+
+---
 
 ## Key Results
 
