@@ -18,6 +18,9 @@ Both algorithms filter out unwanted terms using a predefined **exclusion list**,
 - Output file: **D-GPT.txt**  
 - Uses: Direct GPT-3 interaction for retrieving PTs.
 
+## **Final Validation**
+- Ask ChatGPT, Gemini and Claude to finalise the list
+
 ## **Dataset & Integration**
 This extraction process contributes to a structured **forecasting model**, where the extracted PTs are used to **analyze trends and predict the technological landscape for RMDs** over the next three years. The extracted data integrates with **Graph Neural Networks (GNNs)** for time-series forecasting.
 
