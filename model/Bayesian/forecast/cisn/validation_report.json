@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "num_rmds": 48,
+    "num_pts": 72,
+    "num_rmd_pt_pairs_mapped": "384",
+    "clinical_matrices_used": false,
+    "similarity_source": "data-driven time-series similarity"
+  },
+  "burden_statistics": {
+    "min_raw": 0.34814611555555547,
+    "max_raw": 584.6672524999999,
+    "mean_raw": 61.10911114604166,
+    "min_norm": 0.0,
+    "max_norm": 0.9999999996707288,
+    "mean_norm": 0.45787022179541575
+  },
+  "spillover_matrix_statistics": {
+    "min": 0.0,
+    "max": 0.3642912897335409,
+    "mean": 0.0208333333322792,
+    "diagonal_mean": 0.05059835889656215,
+    "row_sum_mean": 0.9999999999494017
+  },
+  "pt_value_statistics": {
+    "min_direct": 0.0,
+    "max_direct": 7.438108305844183,
+    "mean_direct": 1.3736106653862474,
+    "min_spillover": 0.04045955407227486,
+    "max_spillover": 6.135873325076947,
+    "mean_spillover": 1.4182280287953573
+  },
+  "data_quality": {
+    "all_matrices_finite": true,
+    "no_nan_in_outputs": true,
+    "spillover_normalization": "row"
+  },
+  "top_pt": {
+    "name": "Electroconvulsive Therapy",
+    "spillover_value": 6.135873325076947,
+    "linked_rmds": 19
+  }
+}

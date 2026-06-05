@@ -1,0 +1,51 @@
+PT,PT_Abbreviation,Current_Visibility,Forecast_Trend,Lifecycle_Stage,Time_to_Plateau,Plateau_Type
+PT_Anxiolytic Medications,PTAM,92.4,Rapidly Increasing,Stability,4.4,Lower
+PT_Resting State Fmri,PTRS,79.6,Rapidly Increasing,Stability,4.1,Upper
+PT_Trauma Focused Cbt,PTTF,97.0,Rapidly Increasing,Trough,3.6,Lower
+PT_Prolonged Exposure Therapy,PTPE,83.1,Emerging,Stability,1.3,Lower
+PT_Focused Ultrasound Therapy,PTFU,88.5,Emerging,Stability,4.9,Lower
+PT_Electroencephalography,PTE,87.2,Emerging,Stability,1.2,Upper
+PT_Digital Health Tools,PTDH,100.0,Rapidly Increasing,Trough,2.3,Upper
+PT_Brain Computer Interface,PTBC,99.0,Emerging,Maturity,2.9,Upper
+PT_Neuroplasticity Techniques,PTNT,30.1,Emerging,Growth,3.8,Upper
+PT_Regenerative Medicine Approaches,PTRM,26.0,Rapidly Increasing,Growth,2.2,Lower
+PT_Voxel Based Lesion Symptom Mapping,PTVB,29.6,Emerging,Launch,4.1,Lower
+PT_Vocal And Speech Biomarkers,PTVA,21.6,Rapidly Increasing,Growth,3.3,Upper
+PT_Digital Imaging Technologies For Brain Scanning,PTDI,17.2,Emerging,Launch,2.9,Upper
+PT_Meditation And Relaxation Techniques,PTMA,25.5,Rapidly Increasing,Growth,3.2,Upper
+PT_Expressive Writing And Journaling,PTEW,20.5,Rapidly Increasing,Launch,2.6,Lower
+PT_Animal Assisted Therapy,PTAA,16.1,Emerging,Launch,2.1,Upper
+PT_Naltrexone,PTN,20.0,Emerging,Growth,3.7,Upper
+PT_Cbt For Insomnia,PTCF,18.2,Emerging,Launch,1.1,Upper
+PT_Hypnotherapy,PTH,27.3,Emerging,Launch,3.0,Upper
+PT_Mentalization Based Treatment,PTMB,28.8,Rapidly Increasing,Growth,2.2,Lower
+PT_Social Skills Training,PTSS,11.9,Rapidly Increasing and Emerging,Launch,1.5,Lower
+PT_Electroconvulsive Therapy,PTET,16.2,Emerging,Launch,2.1,Lower
+PT_Immunotherapy For Neuropsychiatric Disorders,PTIF,29.4,Rapidly Increasing and Emerging,Growth,2.1,Upper
+PT_Transference Focused Psychotherapy,PTTF,29.9,Rapidly Increasing,Launch,2.2,Upper
+PT_Neuroprotective Agents,PTNA,11.6,Rapidly Increasing,Launch,4.0,Lower
+PT_Stimulant And Wake Promoting Agents,PTSA,23.3,Rapidly Increasing,Growth,3.6,Upper
+PT_Machine Learning Neuroimaging,PTML,24.6,Rapidly Increasing,Growth,2.3,Upper
+PT_Fecal Microbiota Transplant,PTFM,13.3,Rapidly Increasing,Launch,1.7,Lower
+PT_Deep Brain Stimulation,PTDB,11.8,Rapidly Increasing and Emerging,Launch,3.4,Upper
+PT_Transcranial Direct Current Stimulation,PTTD,14.7,Rapidly Increasing,Launch,4.1,Upper
+PT_Digital Phenotyping,PTDP,45.2,Rapidly Increasing,Growth,3.3,Upper
+PT_Antipsychotic Medications,PTAM,15.7,Rapidly Increasing,Launch,3.1,Upper
+PT_Cognitive Behavioral Therapy,PTCB,30.9,Rapidly Increasing,Growth,1.6,Upper
+PT_Neuromodulation Techniques,PTNT,17.8,Emerging,Launch,2.1,Lower
+PT_Mood Stabilizers,PTMS,23.4,Rapidly Increasing,Launch,4.7,Upper
+PT_Psilocybin Assisted Therapy,PTPA,14.8,Emerging,Launch,2.5,Lower
+PT_Clozapine Protocol,PTCP,14.7,Rapidly Increasing,Launch,4.8,Upper
+PT_Interpersonal Psychotherapy,PTIP,21.1,Rapidly Increasing,Growth,1.7,Upper
+PT_Reality Testing Techniques,PTRT,11.2,Emerging,Launch,4.6,Lower
+PT_Mindfulness Based Stress Reduction,PTMB,21.4,Emerging,Growth,2.3,Lower
+PT_Speech Language Therapy,PTSL,30.5,Rapidly Increasing and Emerging,Launch,4.0,Upper
+PT_Dialectical Behavior Therapy,PTDB,11.2,Rapidly Increasing,Launch,1.5,Lower
+PT_Virtual Reality Exposure Therapy,PTVR,18.9,Rapidly Increasing,Launch,3.4,Lower
+PT_Antidepressants,PTA,15.2,Rapidly Increasing,Launch,4.1,Lower
+PT_Closed Loop Neurostimulation,PTCL,20.8,Emerging,Launch,1.9,Upper
+PT_Digital Therapeutics,PTDT,5.0,Rapidly Increasing,Launch,3.0,Lower
+PT_Motivational Interviewing,PTMI,15.0,Emerging,Launch,4.2,Lower
+PT_Blockchain For Data Protection,PTBF,21.0,Rapidly Increasing,Launch,4.7,Upper
+PT_Schema Therapy,PTST,28.9,Rapidly Increasing and Emerging,Growth,4.8,Upper
+PT_Narrative Exposure Therapy,PTNE,20.9,Rapidly Increasing,Growth,3.5,Upper

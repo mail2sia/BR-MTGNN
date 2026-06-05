@@ -1,0 +1,769 @@
+rmd_name,pt_name,rank,rank_by,forecast_mean_raw,normalization_denominator
+RMD_Anorexia Nervosa,PT_Closed Loop Neurostimulation,1,coupling,20.026578227949962,1.0
+RMD_Anorexia Nervosa,PT_Transcranial Direct Current Stimulation,2,coupling,32.27736119849385,1.0
+RMD_Anorexia Nervosa,PT_Electroconvulsive Therapy,3,coupling,20.87111237528387,1.0
+RMD_Anorexia Nervosa,PT_Digital Phenotyping,4,coupling,17.591852332470925,1.0
+RMD_Anorexia Nervosa,PT_Neuroprotective Agents,5,coupling,41.7172712620327,1.0
+RMD_Anorexia Nervosa,PT_Hypnotherapy,6,coupling,11.816733332088559,1.0
+RMD_Anorexia Nervosa,PT_Social Skills Training,7,coupling,32.019623837354395,1.0
+RMD_Anorexia Nervosa,PT_Stimulant And Wake Promoting Agents,8,coupling,25.02093435276346,1.0
+RMD_Antisocial Personality Disorder,PT_Transcranial Direct Current Stimulation,1,coupling,32.27736119849385,1.0
+RMD_Antisocial Personality Disorder,PT_Electroconvulsive Therapy,2,coupling,20.87111237528387,1.0
+RMD_Antisocial Personality Disorder,PT_Machine Learning Neuroimaging,3,coupling,12.871072064790562,1.0
+RMD_Antisocial Personality Disorder,PT_Immunotherapy For Neuropsychiatric Disorders,4,coupling,9.781975905506505,1.0
+RMD_Antisocial Personality Disorder,PT_Hypnotherapy,5,coupling,11.816733332088559,1.0
+RMD_Antisocial Personality Disorder,PT_Neuroprotective Agents,6,coupling,41.7172712620327,1.0
+RMD_Antisocial Personality Disorder,PT_Stimulant And Wake Promoting Agents,7,coupling,25.02093435276346,1.0
+RMD_Antisocial Personality Disorder,PT_Social Skills Training,8,coupling,32.019623837354395,1.0
+RMD_Autosarcophagy,PT_Animal Assisted Therapy,1,coupling,6.123684375853989,1.0
+RMD_Autosarcophagy,PT_Narrative Exposure Therapy,2,coupling,41.83577893306703,1.0
+RMD_Autosarcophagy,PT_Naltrexone,3,coupling,14.856798968418369,1.0
+RMD_Autosarcophagy,PT_Art Therapy,4,coupling,5.905425901174663,1.0
+RMD_Autosarcophagy,PT_Immunotherapy For Neuropsychiatric Disorders,5,coupling,9.781975905506505,1.0
+RMD_Autosarcophagy,PT_Transference Focused Psychotherapy,6,coupling,9.78525111494212,1.0
+RMD_Autosarcophagy,PT_Electroconvulsive Therapy,7,coupling,20.87111237528387,1.0
+RMD_Autosarcophagy,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Avoidant Personality Disorder,PT_Machine Learning Neuroimaging,1,coupling,12.871072064790562,1.0
+RMD_Avoidant Personality Disorder,PT_Cbt For Insomnia,2,coupling,3.1444966207426286,1.0
+RMD_Avoidant Personality Disorder,PT_Immunotherapy For Neuropsychiatric Disorders,3,coupling,9.781975905506505,1.0
+RMD_Avoidant Personality Disorder,PT_Hypnotherapy,4,coupling,11.816733332088559,1.0
+RMD_Avoidant Personality Disorder,PT_Naltrexone,5,coupling,14.856798968418369,1.0
+RMD_Avoidant Personality Disorder,PT_Electroconvulsive Therapy,6,coupling,20.87111237528387,1.0
+RMD_Avoidant Personality Disorder,PT_Neuroprotective Agents,7,coupling,41.7172712620327,1.0
+RMD_Avoidant Personality Disorder,PT_Social Skills Training,8,coupling,32.019623837354395,1.0
+RMD_Boanthropy,PT_Acceptance And Commitment Therapy,1,coupling,42.896103035021284,1.0
+RMD_Boanthropy,PT_Digital Phenotyping,2,coupling,17.591852332470925,1.0
+RMD_Boanthropy,PT_Digital Therapeutics,3,coupling,14.738358545936071,1.0
+RMD_Boanthropy,PT_Trauma Focused Cbt,4,coupling,6.870253205870837,1.0
+RMD_Boanthropy,PT_Occupational Therapy,5,coupling,58.45976545235784,1.0
+RMD_Boanthropy,PT_Anxiolytic Medications,6,coupling,109.31999976192185,1.0
+RMD_Boanthropy,PT_Virtual Reality Exposure Therapy,7,coupling,17.508885678634304,1.0
+RMD_Boanthropy,PT_Vocal And Speech Biomarkers,8,coupling,0.27303934603075597,1.0
+RMD_Body Integrity Dysphoria,PT_Psilocybin Assisted Therapy,1,coupling,1.5116545299868869,1.0
+RMD_Body Integrity Dysphoria,PT_Sleep Pattern Monitoring And Manipulation,2,coupling,0.11823454036116218,1.0
+RMD_Body Integrity Dysphoria,PT_Stem Cell Therapy For Neurological Disorders,3,coupling,10.485430877818404,1.0
+RMD_Body Integrity Dysphoria,PT_Neuromodulation Techniques,4,coupling,9.307442484062893,1.0
+RMD_Body Integrity Dysphoria,PT_Cognitive Assistive Technologies,5,coupling,0.15619568582647772,1.0
+RMD_Body Integrity Dysphoria,PT_Traditional And Alternative Medicine Approaches,6,coupling,17.56052735219998,1.0
+RMD_Body Integrity Dysphoria,PT_Interpersonal Psychotherapy,7,coupling,14.501139380206732,1.0
+RMD_Body Integrity Dysphoria,PT_Electroencephalography,8,coupling,196.72115849966346,1.0
+RMD_Brief Psychotic Disorder,PT_Transcranial Magnetic Stimulation,1,coupling,243.85038205762487,1.0
+RMD_Brief Psychotic Disorder,PT_Narrative Exposure Therapy,2,coupling,41.83577893306703,1.0
+RMD_Brief Psychotic Disorder,PT_Mood Stabilizers,3,coupling,84.89563124051453,1.0
+RMD_Brief Psychotic Disorder,PT_Cognitive Behavioral Therapy,4,coupling,230.54333726877212,1.0
+RMD_Brief Psychotic Disorder,PT_Emdr Therapy,5,coupling,31.603444893884973,1.0
+RMD_Brief Psychotic Disorder,PT_Metaverse,6,coupling,2.6694403671080096,1.0
+RMD_Brief Psychotic Disorder,PT_Mindfulness Based Stress Reduction,7,coupling,61.36026192717899,1.0
+RMD_Brief Psychotic Disorder,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Capgras Syndrome,PT_Metaverse,1,coupling,2.6694403671080096,1.0
+RMD_Capgras Syndrome,PT_Mood Stabilizers,2,coupling,84.89563124051453,1.0
+RMD_Capgras Syndrome,PT_Transcranial Magnetic Stimulation,3,coupling,243.85038205762487,1.0
+RMD_Capgras Syndrome,PT_Cognitive Behavioral Therapy,4,coupling,230.54333726877212,1.0
+RMD_Capgras Syndrome,PT_Antidepressants,5,coupling,185.83049642213004,1.0
+RMD_Capgras Syndrome,PT_Mindfulness Based Stress Reduction,6,coupling,61.36026192717899,1.0
+RMD_Capgras Syndrome,PT_Selective Serotonin Reuptake Inhibitors,7,coupling,89.37098099365218,1.0
+RMD_Capgras Syndrome,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Childhood Disintegrative Disorder,PT_Mood Stabilizers,1,coupling,84.89563124051453,1.0
+RMD_Childhood Disintegrative Disorder,PT_Narrative Exposure Therapy,2,coupling,41.83577893306703,1.0
+RMD_Childhood Disintegrative Disorder,PT_Transcranial Magnetic Stimulation,3,coupling,243.85038205762487,1.0
+RMD_Childhood Disintegrative Disorder,PT_Emdr Therapy,4,coupling,31.603444893884973,1.0
+RMD_Childhood Disintegrative Disorder,PT_Cognitive Behavioral Therapy,5,coupling,230.54333726877212,1.0
+RMD_Childhood Disintegrative Disorder,PT_Mindfulness Based Stress Reduction,6,coupling,61.36026192717899,1.0
+RMD_Childhood Disintegrative Disorder,PT_Metaverse,7,coupling,2.6694403671080096,1.0
+RMD_Childhood Disintegrative Disorder,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Chronic Traumatic Encephalopathy,PT_Chronic Traumatic Encephalopathy,1,coupling,29.440115799896187,1.0
+RMD_Chronic Traumatic Encephalopathy,PT_Neuroprotective Agents,2,coupling,41.7172712620327,1.0
+RMD_Chronic Traumatic Encephalopathy,PT_Motivational Interviewing,3,coupling,51.08942155846028,1.0
+RMD_Chronic Traumatic Encephalopathy,PT_Dialectical Behavior Therapy,4,coupling,45.32434091302976,1.0
+RMD_Chronic Traumatic Encephalopathy,PT_Emdr Therapy,5,coupling,31.603444893884973,1.0
+RMD_Chronic Traumatic Encephalopathy,PT_Transcranial Magnetic Stimulation,6,coupling,243.85038205762487,1.0
+RMD_Chronic Traumatic Encephalopathy,PT_Cognitive Behavioral Therapy,7,coupling,230.54333726877212,1.0
+RMD_Chronic Traumatic Encephalopathy,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Circadian Rhythm Sleep Wake Disorder,PT_Neurobiological Assessments For Mental Disorders,1,coupling,1.0412538205555348,1.0
+RMD_Circadian Rhythm Sleep Wake Disorder,PT_Expressive Writing And Journaling,2,coupling,1.7196466847053402,1.0
+RMD_Circadian Rhythm Sleep Wake Disorder,PT_Interpersonal Psychotherapy,3,coupling,14.501139380206732,1.0
+RMD_Circadian Rhythm Sleep Wake Disorder,PT_Speech Language Therapy,4,coupling,3.8033477368263098,1.0
+RMD_Circadian Rhythm Sleep Wake Disorder,PT_Regenerative Medicine Approaches,5,coupling,61.58910373586852,1.0
+RMD_Circadian Rhythm Sleep Wake Disorder,PT_Lithium Therapy,6,coupling,0.23151593235861817,1.0
+RMD_Circadian Rhythm Sleep Wake Disorder,PT_Neurofeedback Systems,7,coupling,0.3728284600469902,1.0
+RMD_Circadian Rhythm Sleep Wake Disorder,PT_Reality Testing Techniques,8,coupling,0.07435315228521899,1.0
+RMD_Cotard Syndrome,PT_Motivational Interviewing,1,coupling,51.08942155846028,1.0
+RMD_Cotard Syndrome,PT_Mood Stabilizers,2,coupling,84.89563124051453,1.0
+RMD_Cotard Syndrome,PT_Transcranial Magnetic Stimulation,3,coupling,243.85038205762487,1.0
+RMD_Cotard Syndrome,PT_Antidepressants,4,coupling,185.83049642213004,1.0
+RMD_Cotard Syndrome,PT_Cognitive Behavioral Therapy,5,coupling,230.54333726877212,1.0
+RMD_Cotard Syndrome,PT_Selective Serotonin Reuptake Inhibitors,6,coupling,89.37098099365218,1.0
+RMD_Cotard Syndrome,PT_Metaverse,7,coupling,2.6694403671080096,1.0
+RMD_Cotard Syndrome,PT_Digital Health Tools,8,coupling,9.618268563052428,1.0
+RMD_Cyclothymic Disorder,PT_Motivational Interviewing,1,coupling,51.08942155846028,1.0
+RMD_Cyclothymic Disorder,PT_Stimulant And Wake Promoting Agents,2,coupling,25.02093435276346,1.0
+RMD_Cyclothymic Disorder,PT_Emdr Therapy,3,coupling,31.603444893884973,1.0
+RMD_Cyclothymic Disorder,PT_Metaverse,4,coupling,2.6694403671080096,1.0
+RMD_Cyclothymic Disorder,PT_Cognitive Behavioral Therapy,5,coupling,230.54333726877212,1.0
+RMD_Cyclothymic Disorder,PT_Transcranial Magnetic Stimulation,6,coupling,243.85038205762487,1.0
+RMD_Cyclothymic Disorder,PT_Selective Serotonin Reuptake Inhibitors,7,coupling,89.37098099365218,1.0
+RMD_Cyclothymic Disorder,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Delusional Disorder,PT_Anxiolytic Medications,1,coupling,109.31999976192185,1.0
+RMD_Delusional Disorder,PT_Meditation And Relaxation Techniques,2,coupling,5.885019521864253,1.0
+RMD_Delusional Disorder,PT_Neuroplasticity Techniques,3,coupling,1.5653282212362258,1.0
+RMD_Delusional Disorder,PT_Expressive Writing And Journaling,4,coupling,1.7196466847053402,1.0
+RMD_Delusional Disorder,PT_Regenerative Medicine Approaches,5,coupling,61.58910373586852,1.0
+RMD_Delusional Disorder,PT_Digital Imaging Technologies For Brain Scanning,6,coupling,1.4579320275786976,1.0
+RMD_Delusional Disorder,PT_Voxel Based Lesion Symptom Mapping,7,coupling,4.42812138366688,1.0
+RMD_Delusional Disorder,PT_Vocal And Speech Biomarkers,8,coupling,0.27303934603075597,1.0
+RMD_Diogenes Syndrome,PT_Anticonvulsant Therapy,1,coupling,3.703285773977937,1.0
+RMD_Diogenes Syndrome,PT_Narrative Exposure Therapy,2,coupling,41.83577893306703,1.0
+RMD_Diogenes Syndrome,PT_Antipsychotic Medications,3,coupling,52.92023223127243,1.0
+RMD_Diogenes Syndrome,PT_Transference Focused Psychotherapy,4,coupling,9.78525111494212,1.0
+RMD_Diogenes Syndrome,PT_Clozapine Protocol,5,coupling,5.845164703589676,1.0
+RMD_Diogenes Syndrome,PT_Metaverse,6,coupling,2.6694403671080096,1.0
+RMD_Diogenes Syndrome,PT_Mindfulness Based Stress Reduction,7,coupling,61.36026192717899,1.0
+RMD_Diogenes Syndrome,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Disinhibited Social Engagement Disorder,PT_Narrative Exposure Therapy,1,coupling,41.83577893306703,1.0
+RMD_Disinhibited Social Engagement Disorder,PT_Naltrexone,2,coupling,14.856798968418369,1.0
+RMD_Disinhibited Social Engagement Disorder,PT_Transference Focused Psychotherapy,3,coupling,9.78525111494212,1.0
+RMD_Disinhibited Social Engagement Disorder,PT_Music Therapy,4,coupling,9.486083339192765,1.0
+RMD_Disinhibited Social Engagement Disorder,PT_Electroconvulsive Therapy,5,coupling,20.87111237528387,1.0
+RMD_Disinhibited Social Engagement Disorder,PT_Art Therapy,6,coupling,5.905425901174663,1.0
+RMD_Disinhibited Social Engagement Disorder,PT_Anticonvulsant Therapy,7,coupling,3.703285773977937,1.0
+RMD_Disinhibited Social Engagement Disorder,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Dissociative Amnesia,PT_Focused Ultrasound Therapy,1,coupling,1.7356971878753409,1.0
+RMD_Dissociative Amnesia,PT_Antidepressants,2,coupling,185.83049642213004,1.0
+RMD_Dissociative Amnesia,PT_Mood Stabilizers,3,coupling,84.89563124051453,1.0
+RMD_Dissociative Amnesia,PT_Traditional And Alternative Medicine Approaches,4,coupling,17.56052735219998,1.0
+RMD_Dissociative Amnesia,PT_Metaverse,5,coupling,2.6694403671080096,1.0
+RMD_Dissociative Amnesia,PT_Resting State Fmri,6,coupling,7.060273840005455,1.0
+RMD_Dissociative Amnesia,PT_Digital Health Tools,7,coupling,9.618268563052428,1.0
+RMD_Dissociative Amnesia,PT_Electroencephalography,8,coupling,196.72115849966346,1.0
+RMD_Dissociative Fugue,PT_Closed Loop Neurostimulation,1,coupling,20.026578227949962,1.0
+RMD_Dissociative Fugue,PT_Electroconvulsive Therapy,2,coupling,20.87111237528387,1.0
+RMD_Dissociative Fugue,PT_Fecal Microbiota Transplant,3,coupling,14.9814366039266,1.0
+RMD_Dissociative Fugue,PT_Stimulant And Wake Promoting Agents,4,coupling,25.02093435276346,1.0
+RMD_Dissociative Fugue,PT_Neuroprotective Agents,5,coupling,41.7172712620327,1.0
+RMD_Dissociative Fugue,PT_Hypnotherapy,6,coupling,11.816733332088559,1.0
+RMD_Dissociative Fugue,PT_Selective Serotonin Reuptake Inhibitors,7,coupling,89.37098099365218,1.0
+RMD_Dissociative Fugue,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Ekbom Syndrome,PT_Social Skills Training,1,coupling,32.019623837354395,1.0
+RMD_Ekbom Syndrome,PT_Secure Data Storage For Patient Records,2,coupling,0.18997881838848096,1.0
+RMD_Ekbom Syndrome,PT_Augmentative Communication Devices,3,coupling,0.8334379160919944,1.0
+RMD_Ekbom Syndrome,PT_Neurofeedback Systems,4,coupling,0.3728284600469902,1.0
+RMD_Ekbom Syndrome,PT_Digital Phenotyping,5,coupling,17.591852332470925,1.0
+RMD_Ekbom Syndrome,PT_Lithium Therapy,6,coupling,0.23151593235861817,1.0
+RMD_Ekbom Syndrome,PT_Memory Retrieval Techniques,7,coupling,0.16897207790310198,1.0
+RMD_Ekbom Syndrome,PT_Vocal And Speech Biomarkers,8,coupling,0.27303934603075597,1.0
+RMD_Erotomania,PT_Motivational Interviewing,1,coupling,51.08942155846028,1.0
+RMD_Erotomania,PT_Transcranial Direct Current Stimulation,2,coupling,32.27736119849385,1.0
+RMD_Erotomania,PT_Hypnotherapy,3,coupling,11.816733332088559,1.0
+RMD_Erotomania,PT_Stimulant And Wake Promoting Agents,4,coupling,25.02093435276346,1.0
+RMD_Erotomania,PT_Digital Therapeutics,5,coupling,14.738358545936071,1.0
+RMD_Erotomania,PT_Digital Phenotyping,6,coupling,17.591852332470925,1.0
+RMD_Erotomania,PT_Occupational Therapy,7,coupling,58.45976545235784,1.0
+RMD_Erotomania,PT_Neuroprotective Agents,8,coupling,41.7172712620327,1.0
+RMD_Factitious Disorder,PT_Closed Loop Neurostimulation,1,coupling,20.026578227949962,1.0
+RMD_Factitious Disorder,PT_Naltrexone,2,coupling,14.856798968418369,1.0
+RMD_Factitious Disorder,PT_Electroconvulsive Therapy,3,coupling,20.87111237528387,1.0
+RMD_Factitious Disorder,PT_Animal Assisted Therapy,4,coupling,6.123684375853989,1.0
+RMD_Factitious Disorder,PT_Neuroprotective Agents,5,coupling,41.7172712620327,1.0
+RMD_Factitious Disorder,PT_Stimulant And Wake Promoting Agents,6,coupling,25.02093435276346,1.0
+RMD_Factitious Disorder,PT_Transference Focused Psychotherapy,7,coupling,9.78525111494212,1.0
+RMD_Factitious Disorder,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Fregoli Delusion,PT_Mentalization Based Treatment,1,coupling,4.9315125117963206,1.0
+RMD_Fregoli Delusion,PT_Electroconvulsive Therapy,2,coupling,20.87111237528387,1.0
+RMD_Fregoli Delusion,PT_Animal Assisted Therapy,3,coupling,6.123684375853989,1.0
+RMD_Fregoli Delusion,PT_Naltrexone,4,coupling,14.856798968418369,1.0
+RMD_Fregoli Delusion,PT_Hypnotherapy,5,coupling,11.816733332088559,1.0
+RMD_Fregoli Delusion,PT_Cbt For Insomnia,6,coupling,3.1444966207426286,1.0
+RMD_Fregoli Delusion,PT_Immunotherapy For Neuropsychiatric Disorders,7,coupling,9.781975905506505,1.0
+RMD_Fregoli Delusion,PT_Social Skills Training,8,coupling,32.019623837354395,1.0
+RMD_Ganser Syndrome,PT_Machine Learning Neuroimaging,1,coupling,12.871072064790562,1.0
+RMD_Ganser Syndrome,PT_Cbt For Insomnia,2,coupling,3.1444966207426286,1.0
+RMD_Ganser Syndrome,PT_Immunotherapy For Neuropsychiatric Disorders,3,coupling,9.781975905506505,1.0
+RMD_Ganser Syndrome,PT_Transcranial Direct Current Stimulation,4,coupling,32.27736119849385,1.0
+RMD_Ganser Syndrome,PT_Deep Brain Stimulation,5,coupling,9.678038959087266,1.0
+RMD_Ganser Syndrome,PT_Social Skills Training,6,coupling,32.019623837354395,1.0
+RMD_Ganser Syndrome,PT_Fecal Microbiota Transplant,7,coupling,14.9814366039266,1.0
+RMD_Ganser Syndrome,PT_Hypnotherapy,8,coupling,11.816733332088559,1.0
+RMD_Hallucinogen Persisting Perception Disorder,PT_Narrative Exposure Therapy,1,coupling,41.83577893306703,1.0
+RMD_Hallucinogen Persisting Perception Disorder,PT_Music Therapy,2,coupling,9.486083339192765,1.0
+RMD_Hallucinogen Persisting Perception Disorder,PT_Emdr Therapy,3,coupling,31.603444893884973,1.0
+RMD_Hallucinogen Persisting Perception Disorder,PT_Stimulant And Wake Promoting Agents,4,coupling,25.02093435276346,1.0
+RMD_Hallucinogen Persisting Perception Disorder,PT_Neuroprotective Agents,5,coupling,41.7172712620327,1.0
+RMD_Hallucinogen Persisting Perception Disorder,PT_Cognitive Behavioral Therapy,6,coupling,230.54333726877212,1.0
+RMD_Hallucinogen Persisting Perception Disorder,PT_Transcranial Magnetic Stimulation,7,coupling,243.85038205762487,1.0
+RMD_Hallucinogen Persisting Perception Disorder,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Histrionic Personality Disorder,PT_Hypnotherapy,1,coupling,11.816733332088559,1.0
+RMD_Histrionic Personality Disorder,PT_Neuroprotective Agents,2,coupling,41.7172712620327,1.0
+RMD_Histrionic Personality Disorder,PT_Electroconvulsive Therapy,3,coupling,20.87111237528387,1.0
+RMD_Histrionic Personality Disorder,PT_Social Skills Training,4,coupling,32.019623837354395,1.0
+RMD_Histrionic Personality Disorder,PT_Immunotherapy For Neuropsychiatric Disorders,5,coupling,9.781975905506505,1.0
+RMD_Histrionic Personality Disorder,PT_Naltrexone,6,coupling,14.856798968418369,1.0
+RMD_Histrionic Personality Disorder,PT_Stimulant And Wake Promoting Agents,7,coupling,25.02093435276346,1.0
+RMD_Histrionic Personality Disorder,PT_Transference Focused Psychotherapy,8,coupling,9.78525111494212,1.0
+RMD_Hypergraphia,PT_Dialectical Behavior Therapy,1,coupling,45.32434091302976,1.0
+RMD_Hypergraphia,PT_Stimulant And Wake Promoting Agents,2,coupling,25.02093435276346,1.0
+RMD_Hypergraphia,PT_Antipsychotic Medications,3,coupling,52.92023223127243,1.0
+RMD_Hypergraphia,PT_Cognitive Behavioral Therapy,4,coupling,230.54333726877212,1.0
+RMD_Hypergraphia,PT_Transcranial Magnetic Stimulation,5,coupling,243.85038205762487,1.0
+RMD_Hypergraphia,PT_Metaverse,6,coupling,2.6694403671080096,1.0
+RMD_Hypergraphia,PT_Selective Serotonin Reuptake Inhibitors,7,coupling,89.37098099365218,1.0
+RMD_Hypergraphia,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Hyperthymesia,PT_Closed Loop Neurostimulation,1,coupling,20.026578227949962,1.0
+RMD_Hyperthymesia,PT_Electroconvulsive Therapy,2,coupling,20.87111237528387,1.0
+RMD_Hyperthymesia,PT_Hypnotherapy,3,coupling,11.816733332088559,1.0
+RMD_Hyperthymesia,PT_Stimulant And Wake Promoting Agents,4,coupling,25.02093435276346,1.0
+RMD_Hyperthymesia,PT_Fecal Microbiota Transplant,5,coupling,14.9814366039266,1.0
+RMD_Hyperthymesia,PT_Transference Focused Psychotherapy,6,coupling,9.78525111494212,1.0
+RMD_Hyperthymesia,PT_Selective Serotonin Reuptake Inhibitors,7,coupling,89.37098099365218,1.0
+RMD_Hyperthymesia,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Impulse Control Disorders,PT_Neuroprotective Agents,1,coupling,41.7172712620327,1.0
+RMD_Impulse Control Disorders,PT_Narrative Exposure Therapy,2,coupling,41.83577893306703,1.0
+RMD_Impulse Control Disorders,PT_Stimulant And Wake Promoting Agents,3,coupling,25.02093435276346,1.0
+RMD_Impulse Control Disorders,PT_Closed Loop Neurostimulation,4,coupling,20.026578227949962,1.0
+RMD_Impulse Control Disorders,PT_Naltrexone,5,coupling,14.856798968418369,1.0
+RMD_Impulse Control Disorders,PT_Electroconvulsive Therapy,6,coupling,20.87111237528387,1.0
+RMD_Impulse Control Disorders,PT_Transference Focused Psychotherapy,7,coupling,9.78525111494212,1.0
+RMD_Impulse Control Disorders,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Intermetamorphosis Syndrome,PT_Brain Computer Interface,1,coupling,97.56194532594782,1.0
+RMD_Intermetamorphosis Syndrome,PT_Anxiolytic Medications,2,coupling,109.31999976192185,1.0
+RMD_Intermetamorphosis Syndrome,PT_Trauma Focused Cbt,3,coupling,6.870253205870837,1.0
+RMD_Intermetamorphosis Syndrome,PT_Focused Ultrasound Therapy,4,coupling,1.7356971878753409,1.0
+RMD_Intermetamorphosis Syndrome,PT_Electroencephalography,5,coupling,196.72115849966346,1.0
+RMD_Intermetamorphosis Syndrome,PT_Digital Health Tools,6,coupling,9.618268563052428,1.0
+RMD_Intermetamorphosis Syndrome,PT_Resting State Fmri,7,coupling,7.060273840005455,1.0
+RMD_Intermetamorphosis Syndrome,PT_Prolonged Exposure Therapy,8,coupling,0.21736153774934627,1.0
+RMD_Kleine Levin Syndrome,PT_Animal Assisted Therapy,1,coupling,6.123684375853989,1.0
+RMD_Kleine Levin Syndrome,PT_Antipsychotic Medications,2,coupling,52.92023223127243,1.0
+RMD_Kleine Levin Syndrome,PT_Electroconvulsive Therapy,3,coupling,20.87111237528387,1.0
+RMD_Kleine Levin Syndrome,PT_Blockchain For Data Protection,4,coupling,0.1176853027132046,1.0
+RMD_Kleine Levin Syndrome,PT_Neuromodulation Techniques,5,coupling,9.307442484062893,1.0
+RMD_Kleine Levin Syndrome,PT_Personalized Medicine,6,coupling,131.77664660794946,1.0
+RMD_Kleine Levin Syndrome,PT_Naltrexone,7,coupling,14.856798968418369,1.0
+RMD_Kleine Levin Syndrome,PT_Mentalization Based Treatment,8,coupling,4.9315125117963206,1.0
+RMD_Kleptomania,PT_Machine Learning Neuroimaging,1,coupling,12.871072064790562,1.0
+RMD_Kleptomania,PT_Immunotherapy For Neuropsychiatric Disorders,2,coupling,9.781975905506505,1.0
+RMD_Kleptomania,PT_Hypnotherapy,3,coupling,11.816733332088559,1.0
+RMD_Kleptomania,PT_Social Skills Training,4,coupling,32.019623837354395,1.0
+RMD_Kleptomania,PT_Transcranial Direct Current Stimulation,5,coupling,32.27736119849385,1.0
+RMD_Kleptomania,PT_Electroconvulsive Therapy,6,coupling,20.87111237528387,1.0
+RMD_Kleptomania,PT_Digital Phenotyping,7,coupling,17.591852332470925,1.0
+RMD_Kleptomania,PT_Deep Brain Stimulation,8,coupling,9.678038959087266,1.0
+RMD_Koro,PT_Trauma Focused Cbt,1,coupling,6.870253205870837,1.0
+RMD_Koro,PT_Brain Computer Interface,2,coupling,97.56194532594782,1.0
+RMD_Koro,PT_Focused Ultrasound Therapy,3,coupling,1.7356971878753409,1.0
+RMD_Koro,PT_Mood Stabilizers,4,coupling,84.89563124051453,1.0
+RMD_Koro,PT_Anxiolytic Medications,5,coupling,109.31999976192185,1.0
+RMD_Koro,PT_Antidepressants,6,coupling,185.83049642213004,1.0
+RMD_Koro,PT_Resting State Fmri,7,coupling,7.060273840005455,1.0
+RMD_Koro,PT_Digital Health Tools,8,coupling,9.618268563052428,1.0
+RMD_Landau Kleffner Syndrome,PT_Cognitive Behavioral Therapy,1,coupling,230.54333726877212,1.0
+RMD_Landau Kleffner Syndrome,PT_Antidepressants,2,coupling,185.83049642213004,1.0
+RMD_Landau Kleffner Syndrome,PT_Brain Computer Interface,3,coupling,97.56194532594782,1.0
+RMD_Landau Kleffner Syndrome,PT_Metaverse,4,coupling,2.6694403671080096,1.0
+RMD_Landau Kleffner Syndrome,PT_Transcranial Magnetic Stimulation,5,coupling,243.85038205762487,1.0
+RMD_Landau Kleffner Syndrome,PT_Mood Stabilizers,6,coupling,84.89563124051453,1.0
+RMD_Landau Kleffner Syndrome,PT_Mindfulness Based Stress Reduction,7,coupling,61.36026192717899,1.0
+RMD_Landau Kleffner Syndrome,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Narcissistic Personality Disorder,PT_Narrative Exposure Therapy,1,coupling,41.83577893306703,1.0
+RMD_Narcissistic Personality Disorder,PT_Music Therapy,2,coupling,9.486083339192765,1.0
+RMD_Narcissistic Personality Disorder,PT_Transference Focused Psychotherapy,3,coupling,9.78525111494212,1.0
+RMD_Narcissistic Personality Disorder,PT_Emdr Therapy,4,coupling,31.603444893884973,1.0
+RMD_Narcissistic Personality Disorder,PT_Antipsychotic Medications,5,coupling,52.92023223127243,1.0
+RMD_Narcissistic Personality Disorder,PT_Metaverse,6,coupling,2.6694403671080096,1.0
+RMD_Narcissistic Personality Disorder,PT_Mindfulness Based Stress Reduction,7,coupling,61.36026192717899,1.0
+RMD_Narcissistic Personality Disorder,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Olfactory Reference Syndrome,PT_Naltrexone,1,coupling,14.856798968418369,1.0
+RMD_Olfactory Reference Syndrome,PT_Animal Assisted Therapy,2,coupling,6.123684375853989,1.0
+RMD_Olfactory Reference Syndrome,PT_Electroconvulsive Therapy,3,coupling,20.87111237528387,1.0
+RMD_Olfactory Reference Syndrome,PT_Mentalization Based Treatment,4,coupling,4.9315125117963206,1.0
+RMD_Olfactory Reference Syndrome,PT_Stimulant And Wake Promoting Agents,5,coupling,25.02093435276346,1.0
+RMD_Olfactory Reference Syndrome,PT_Hypnotherapy,6,coupling,11.816733332088559,1.0
+RMD_Olfactory Reference Syndrome,PT_Antipsychotic Medications,7,coupling,52.92023223127243,1.0
+RMD_Olfactory Reference Syndrome,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Othello Syndrome,PT_Animal Assisted Therapy,1,coupling,6.123684375853989,1.0
+RMD_Othello Syndrome,PT_Mentalization Based Treatment,2,coupling,4.9315125117963206,1.0
+RMD_Othello Syndrome,PT_Naltrexone,3,coupling,14.856798968418369,1.0
+RMD_Othello Syndrome,PT_Electroconvulsive Therapy,4,coupling,20.87111237528387,1.0
+RMD_Othello Syndrome,PT_Closed Loop Neurostimulation,5,coupling,20.026578227949962,1.0
+RMD_Othello Syndrome,PT_Neuroprotective Agents,6,coupling,41.7172712620327,1.0
+RMD_Othello Syndrome,PT_Antipsychotic Medications,7,coupling,52.92023223127243,1.0
+RMD_Othello Syndrome,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Palilalia,PT_Ketamine Therapy,1,coupling,30.14532969395367,1.0
+RMD_Palilalia,PT_Emdr Therapy,2,coupling,31.603444893884973,1.0
+RMD_Palilalia,PT_Metaverse,3,coupling,2.6694403671080096,1.0
+RMD_Palilalia,PT_Dialectical Behavior Therapy,4,coupling,45.32434091302976,1.0
+RMD_Palilalia,PT_Cognitive Behavioral Therapy,5,coupling,230.54333726877212,1.0
+RMD_Palilalia,PT_Transcranial Magnetic Stimulation,6,coupling,243.85038205762487,1.0
+RMD_Palilalia,PT_Personalized Medicine,7,coupling,131.77664660794946,1.0
+RMD_Palilalia,PT_Brain Computer Interface,8,coupling,97.56194532594782,1.0
+RMD_Postpartum Psychosis,PT_Mood Stabilizers,1,coupling,84.89563124051453,1.0
+RMD_Postpartum Psychosis,PT_Mindfulness Based Stress Reduction,2,coupling,61.36026192717899,1.0
+RMD_Postpartum Psychosis,PT_Metaverse,3,coupling,2.6694403671080096,1.0
+RMD_Postpartum Psychosis,PT_Antipsychotic Medications,4,coupling,52.92023223127243,1.0
+RMD_Postpartum Psychosis,PT_Traditional And Alternative Medicine Approaches,5,coupling,17.56052735219998,1.0
+RMD_Postpartum Psychosis,PT_Neuromodulation Techniques,6,coupling,9.307442484062893,1.0
+RMD_Postpartum Psychosis,PT_Electroencephalography,7,coupling,196.72115849966346,1.0
+RMD_Postpartum Psychosis,PT_Digital Health Tools,8,coupling,9.618268563052428,1.0
+RMD_Pyromania,PT_Digital Therapeutics,1,coupling,14.738358545936071,1.0
+RMD_Pyromania,PT_Deep Brain Stimulation,2,coupling,9.678038959087266,1.0
+RMD_Pyromania,PT_Digital Phenotyping,3,coupling,17.591852332470925,1.0
+RMD_Pyromania,PT_Schema Therapy,4,coupling,1.505295890729311,1.0
+RMD_Pyromania,PT_Neuroplasticity Techniques,5,coupling,1.5653282212362258,1.0
+RMD_Pyromania,PT_Anxiolytic Medications,6,coupling,109.31999976192185,1.0
+RMD_Pyromania,PT_Resting State Fmri,7,coupling,7.060273840005455,1.0
+RMD_Pyromania,PT_Vocal And Speech Biomarkers,8,coupling,0.27303934603075597,1.0
+RMD_Reactive Attachment Disorder,PT_Electroconvulsive Therapy,1,coupling,20.87111237528387,1.0
+RMD_Reactive Attachment Disorder,PT_Animal Assisted Therapy,2,coupling,6.123684375853989,1.0
+RMD_Reactive Attachment Disorder,PT_Cbt For Insomnia,3,coupling,3.1444966207426286,1.0
+RMD_Reactive Attachment Disorder,PT_Machine Learning Neuroimaging,4,coupling,12.871072064790562,1.0
+RMD_Reactive Attachment Disorder,PT_Immunotherapy For Neuropsychiatric Disorders,5,coupling,9.781975905506505,1.0
+RMD_Reactive Attachment Disorder,PT_Naltrexone,6,coupling,14.856798968418369,1.0
+RMD_Reactive Attachment Disorder,PT_Hypnotherapy,7,coupling,11.816733332088559,1.0
+RMD_Reactive Attachment Disorder,PT_Social Skills Training,8,coupling,32.019623837354395,1.0
+RMD_Reduplicative Paramnesia,PT_Blockchain For Data Protection,1,coupling,0.1176853027132046,1.0
+RMD_Reduplicative Paramnesia,PT_Animal Assisted Therapy,2,coupling,6.123684375853989,1.0
+RMD_Reduplicative Paramnesia,PT_Traditional And Alternative Medicine Approaches,3,coupling,17.56052735219998,1.0
+RMD_Reduplicative Paramnesia,PT_Personalized Medicine,4,coupling,131.77664660794946,1.0
+RMD_Reduplicative Paramnesia,PT_Naltrexone,5,coupling,14.856798968418369,1.0
+RMD_Reduplicative Paramnesia,PT_Neuromodulation Techniques,6,coupling,9.307442484062893,1.0
+RMD_Reduplicative Paramnesia,PT_Interpersonal Psychotherapy,7,coupling,14.501139380206732,1.0
+RMD_Reduplicative Paramnesia,PT_Antipsychotic Medications,8,coupling,52.92023223127243,1.0
+RMD_Rumination Disorder,PT_Cbt For Insomnia,1,coupling,3.1444966207426286,1.0
+RMD_Rumination Disorder,PT_Social Skills Training,2,coupling,32.019623837354395,1.0
+RMD_Rumination Disorder,PT_Machine Learning Neuroimaging,3,coupling,12.871072064790562,1.0
+RMD_Rumination Disorder,PT_Immunotherapy For Neuropsychiatric Disorders,4,coupling,9.781975905506505,1.0
+RMD_Rumination Disorder,PT_Hypnotherapy,5,coupling,11.816733332088559,1.0
+RMD_Rumination Disorder,PT_Deep Brain Stimulation,6,coupling,9.678038959087266,1.0
+RMD_Rumination Disorder,PT_Lithium Therapy,7,coupling,0.23151593235861817,1.0
+RMD_Rumination Disorder,PT_Speech Language Therapy,8,coupling,3.8033477368263098,1.0
+RMD_Savant Syndrome,PT_Naltrexone,1,coupling,14.856798968418369,1.0
+RMD_Savant Syndrome,PT_Closed Loop Neurostimulation,2,coupling,20.026578227949962,1.0
+RMD_Savant Syndrome,PT_Electroconvulsive Therapy,3,coupling,20.87111237528387,1.0
+RMD_Savant Syndrome,PT_Mentalization Based Treatment,4,coupling,4.9315125117963206,1.0
+RMD_Savant Syndrome,PT_Stimulant And Wake Promoting Agents,5,coupling,25.02093435276346,1.0
+RMD_Savant Syndrome,PT_Hypnotherapy,6,coupling,11.816733332088559,1.0
+RMD_Savant Syndrome,PT_Neuroprotective Agents,7,coupling,41.7172712620327,1.0
+RMD_Savant Syndrome,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Schizoaffective Disorder,PT_Narrative Exposure Therapy,1,coupling,41.83577893306703,1.0
+RMD_Schizoaffective Disorder,PT_Closed Loop Neurostimulation,2,coupling,20.026578227949962,1.0
+RMD_Schizoaffective Disorder,PT_Naltrexone,3,coupling,14.856798968418369,1.0
+RMD_Schizoaffective Disorder,PT_Music Therapy,4,coupling,9.486083339192765,1.0
+RMD_Schizoaffective Disorder,PT_Stimulant And Wake Promoting Agents,5,coupling,25.02093435276346,1.0
+RMD_Schizoaffective Disorder,PT_Electroconvulsive Therapy,6,coupling,20.87111237528387,1.0
+RMD_Schizoaffective Disorder,PT_Neuroprotective Agents,7,coupling,41.7172712620327,1.0
+RMD_Schizoaffective Disorder,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Schizotypal Personality Disorder,PT_Naltrexone,1,coupling,14.856798968418369,1.0
+RMD_Schizotypal Personality Disorder,PT_Electroconvulsive Therapy,2,coupling,20.87111237528387,1.0
+RMD_Schizotypal Personality Disorder,PT_Animal Assisted Therapy,3,coupling,6.123684375853989,1.0
+RMD_Schizotypal Personality Disorder,PT_Mentalization Based Treatment,4,coupling,4.9315125117963206,1.0
+RMD_Schizotypal Personality Disorder,PT_Neuroprotective Agents,5,coupling,41.7172712620327,1.0
+RMD_Schizotypal Personality Disorder,PT_Closed Loop Neurostimulation,6,coupling,20.026578227949962,1.0
+RMD_Schizotypal Personality Disorder,PT_Hypnotherapy,7,coupling,11.816733332088559,1.0
+RMD_Schizotypal Personality Disorder,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Selective Mutism,PT_Mood Stabilizers,1,coupling,84.89563124051453,1.0
+RMD_Selective Mutism,PT_Motivational Interviewing,2,coupling,51.08942155846028,1.0
+RMD_Selective Mutism,PT_Stimulant And Wake Promoting Agents,3,coupling,25.02093435276346,1.0
+RMD_Selective Mutism,PT_Metaverse,4,coupling,2.6694403671080096,1.0
+RMD_Selective Mutism,PT_Transcranial Magnetic Stimulation,5,coupling,243.85038205762487,1.0
+RMD_Selective Mutism,PT_Antidepressants,6,coupling,185.83049642213004,1.0
+RMD_Selective Mutism,PT_Cognitive Behavioral Therapy,7,coupling,230.54333726877212,1.0
+RMD_Selective Mutism,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Stendhal Syndrome,PT_Mood Stabilizers,1,coupling,84.89563124051453,1.0
+RMD_Stendhal Syndrome,PT_Transcranial Magnetic Stimulation,2,coupling,243.85038205762487,1.0
+RMD_Stendhal Syndrome,PT_Emdr Therapy,3,coupling,31.603444893884973,1.0
+RMD_Stendhal Syndrome,PT_Metaverse,4,coupling,2.6694403671080096,1.0
+RMD_Stendhal Syndrome,PT_Cognitive Behavioral Therapy,5,coupling,230.54333726877212,1.0
+RMD_Stendhal Syndrome,PT_Antidepressants,6,coupling,185.83049642213004,1.0
+RMD_Stendhal Syndrome,PT_Mindfulness Based Stress Reduction,7,coupling,61.36026192717899,1.0
+RMD_Stendhal Syndrome,PT_Selective Serotonin Reuptake Inhibitors,8,coupling,89.37098099365218,1.0
+RMD_Wendigo Psychosis,PT_Neuroplasticity Techniques,1,coupling,1.5653282212362258,1.0
+RMD_Wendigo Psychosis,PT_Anxiolytic Medications,2,coupling,109.31999976192185,1.0
+RMD_Wendigo Psychosis,PT_Antidepressants,3,coupling,185.83049642213004,1.0
+RMD_Wendigo Psychosis,PT_Virtual Reality Exposure Therapy,4,coupling,17.508885678634304,1.0
+RMD_Wendigo Psychosis,PT_Resting State Fmri,5,coupling,7.060273840005455,1.0
+RMD_Wendigo Psychosis,PT_Digital Health Tools,6,coupling,9.618268563052428,1.0
+RMD_Wendigo Psychosis,PT_Trauma Focused Cbt,7,coupling,6.870253205870837,1.0
+RMD_Wendigo Psychosis,PT_Vocal And Speech Biomarkers,8,coupling,0.27303934603075597,1.0
+RMD_Anorexia Nervosa,PT_Closed Loop Neurostimulation,1,coupling,20.026578227949962,1.0
+RMD_Anorexia Nervosa,PT_Transcranial Direct Current Stimulation,2,coupling,32.27736119849385,1.0
+RMD_Anorexia Nervosa,PT_Electroconvulsive Therapy,3,coupling,20.87111237528387,1.0
+RMD_Anorexia Nervosa,PT_Digital Phenotyping,4,coupling,17.591852332470925,1.0
+RMD_Anorexia Nervosa,PT_Neuroprotective Agents,5,coupling,41.7172712620327,1.0
+RMD_Anorexia Nervosa,PT_Hypnotherapy,6,coupling,11.816733332088559,1.0
+RMD_Anorexia Nervosa,PT_Social Skills Training,7,coupling,32.019623837354395,1.0
+RMD_Anorexia Nervosa,PT_Stimulant And Wake Promoting Agents,8,coupling,25.02093435276346,1.0
+RMD_Antisocial Personality Disorder,PT_Transcranial Direct Current Stimulation,1,coupling,32.27736119849385,1.0
+RMD_Antisocial Personality Disorder,PT_Electroconvulsive Therapy,2,coupling,20.87111237528387,1.0
+RMD_Antisocial Personality Disorder,PT_Machine Learning Neuroimaging,3,coupling,12.871072064790562,1.0
+RMD_Antisocial Personality Disorder,PT_Immunotherapy For Neuropsychiatric Disorders,4,coupling,9.781975905506505,1.0
+RMD_Antisocial Personality Disorder,PT_Hypnotherapy,5,coupling,11.816733332088559,1.0
+RMD_Antisocial Personality Disorder,PT_Neuroprotective Agents,6,coupling,41.7172712620327,1.0
+RMD_Antisocial Personality Disorder,PT_Stimulant And Wake Promoting Agents,7,coupling,25.02093435276346,1.0
+RMD_Antisocial Personality Disorder,PT_Social Skills Training,8,coupling,32.019623837354395,1.0
+RMD_Autosarcophagy,PT_Animal Assisted Therapy,1,coupling,6.123684375853989,1.0
+RMD_Autosarcophagy,PT_Narrative Exposure Therapy,2,coupling,41.83577893306703,1.0
+RMD_Autosarcophagy,PT_Naltrexone,3,coupling,14.856798968418369,1.0
+RMD_Autosarcophagy,PT_Art Therapy,4,coupling,5.905425901174663,1.0
+RMD_Autosarcophagy,PT_Immunotherapy For Neuropsychiatric Disorders,5,coupling,9.781975905506505,1.0
+RMD_Autosarcophagy,PT_Transference Focused Psychotherapy,6,coupling,9.78525111494212,1.0
+RMD_Autosarcophagy,PT_Electroconvulsive Therapy,7,coupling,20.87111237528387,1.0
+RMD_Autosarcophagy,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Avoidant Personality Disorder,PT_Machine Learning Neuroimaging,1,coupling,12.871072064790562,1.0
+RMD_Avoidant Personality Disorder,PT_Cbt For Insomnia,2,coupling,3.1444966207426286,1.0
+RMD_Avoidant Personality Disorder,PT_Immunotherapy For Neuropsychiatric Disorders,3,coupling,9.781975905506505,1.0
+RMD_Avoidant Personality Disorder,PT_Hypnotherapy,4,coupling,11.816733332088559,1.0
+RMD_Avoidant Personality Disorder,PT_Naltrexone,5,coupling,14.856798968418369,1.0
+RMD_Avoidant Personality Disorder,PT_Electroconvulsive Therapy,6,coupling,20.87111237528387,1.0
+RMD_Avoidant Personality Disorder,PT_Neuroprotective Agents,7,coupling,41.7172712620327,1.0
+RMD_Avoidant Personality Disorder,PT_Social Skills Training,8,coupling,32.019623837354395,1.0
+RMD_Boanthropy,PT_Acceptance And Commitment Therapy,1,coupling,42.896103035021284,1.0
+RMD_Boanthropy,PT_Digital Phenotyping,2,coupling,17.591852332470925,1.0
+RMD_Boanthropy,PT_Digital Therapeutics,3,coupling,14.738358545936071,1.0
+RMD_Boanthropy,PT_Trauma Focused Cbt,4,coupling,6.870253205870837,1.0
+RMD_Boanthropy,PT_Occupational Therapy,5,coupling,58.45976545235784,1.0
+RMD_Boanthropy,PT_Anxiolytic Medications,6,coupling,109.31999976192185,1.0
+RMD_Boanthropy,PT_Virtual Reality Exposure Therapy,7,coupling,17.508885678634304,1.0
+RMD_Boanthropy,PT_Vocal And Speech Biomarkers,8,coupling,0.27303934603075597,1.0
+RMD_Body Integrity Dysphoria,PT_Psilocybin Assisted Therapy,1,coupling,1.5116545299868869,1.0
+RMD_Body Integrity Dysphoria,PT_Sleep Pattern Monitoring And Manipulation,2,coupling,0.11823454036116218,1.0
+RMD_Body Integrity Dysphoria,PT_Stem Cell Therapy For Neurological Disorders,3,coupling,10.485430877818404,1.0
+RMD_Body Integrity Dysphoria,PT_Neuromodulation Techniques,4,coupling,9.307442484062893,1.0
+RMD_Body Integrity Dysphoria,PT_Cognitive Assistive Technologies,5,coupling,0.15619568582647772,1.0
+RMD_Body Integrity Dysphoria,PT_Traditional And Alternative Medicine Approaches,6,coupling,17.56052735219998,1.0
+RMD_Body Integrity Dysphoria,PT_Interpersonal Psychotherapy,7,coupling,14.501139380206732,1.0
+RMD_Body Integrity Dysphoria,PT_Electroencephalography,8,coupling,196.72115849966346,1.0
+RMD_Brief Psychotic Disorder,PT_Transcranial Magnetic Stimulation,1,coupling,243.85038205762487,1.0
+RMD_Brief Psychotic Disorder,PT_Narrative Exposure Therapy,2,coupling,41.83577893306703,1.0
+RMD_Brief Psychotic Disorder,PT_Mood Stabilizers,3,coupling,84.89563124051453,1.0
+RMD_Brief Psychotic Disorder,PT_Cognitive Behavioral Therapy,4,coupling,230.54333726877212,1.0
+RMD_Brief Psychotic Disorder,PT_Emdr Therapy,5,coupling,31.603444893884973,1.0
+RMD_Brief Psychotic Disorder,PT_Metaverse,6,coupling,2.6694403671080096,1.0
+RMD_Brief Psychotic Disorder,PT_Mindfulness Based Stress Reduction,7,coupling,61.36026192717899,1.0
+RMD_Brief Psychotic Disorder,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Capgras Syndrome,PT_Metaverse,1,coupling,2.6694403671080096,1.0
+RMD_Capgras Syndrome,PT_Mood Stabilizers,2,coupling,84.89563124051453,1.0
+RMD_Capgras Syndrome,PT_Transcranial Magnetic Stimulation,3,coupling,243.85038205762487,1.0
+RMD_Capgras Syndrome,PT_Cognitive Behavioral Therapy,4,coupling,230.54333726877212,1.0
+RMD_Capgras Syndrome,PT_Antidepressants,5,coupling,185.83049642213004,1.0
+RMD_Capgras Syndrome,PT_Mindfulness Based Stress Reduction,6,coupling,61.36026192717899,1.0
+RMD_Capgras Syndrome,PT_Selective Serotonin Reuptake Inhibitors,7,coupling,89.37098099365218,1.0
+RMD_Capgras Syndrome,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Childhood Disintegrative Disorder,PT_Mood Stabilizers,1,coupling,84.89563124051453,1.0
+RMD_Childhood Disintegrative Disorder,PT_Narrative Exposure Therapy,2,coupling,41.83577893306703,1.0
+RMD_Childhood Disintegrative Disorder,PT_Transcranial Magnetic Stimulation,3,coupling,243.85038205762487,1.0
+RMD_Childhood Disintegrative Disorder,PT_Emdr Therapy,4,coupling,31.603444893884973,1.0
+RMD_Childhood Disintegrative Disorder,PT_Cognitive Behavioral Therapy,5,coupling,230.54333726877212,1.0
+RMD_Childhood Disintegrative Disorder,PT_Mindfulness Based Stress Reduction,6,coupling,61.36026192717899,1.0
+RMD_Childhood Disintegrative Disorder,PT_Metaverse,7,coupling,2.6694403671080096,1.0
+RMD_Childhood Disintegrative Disorder,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Chronic Traumatic Encephalopathy,PT_Chronic Traumatic Encephalopathy,1,coupling,29.440115799896187,1.0
+RMD_Chronic Traumatic Encephalopathy,PT_Neuroprotective Agents,2,coupling,41.7172712620327,1.0
+RMD_Chronic Traumatic Encephalopathy,PT_Motivational Interviewing,3,coupling,51.08942155846028,1.0
+RMD_Chronic Traumatic Encephalopathy,PT_Dialectical Behavior Therapy,4,coupling,45.32434091302976,1.0
+RMD_Chronic Traumatic Encephalopathy,PT_Emdr Therapy,5,coupling,31.603444893884973,1.0
+RMD_Chronic Traumatic Encephalopathy,PT_Transcranial Magnetic Stimulation,6,coupling,243.85038205762487,1.0
+RMD_Chronic Traumatic Encephalopathy,PT_Cognitive Behavioral Therapy,7,coupling,230.54333726877212,1.0
+RMD_Chronic Traumatic Encephalopathy,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Circadian Rhythm Sleep Wake Disorder,PT_Neurobiological Assessments For Mental Disorders,1,coupling,1.0412538205555348,1.0
+RMD_Circadian Rhythm Sleep Wake Disorder,PT_Expressive Writing And Journaling,2,coupling,1.7196466847053402,1.0
+RMD_Circadian Rhythm Sleep Wake Disorder,PT_Interpersonal Psychotherapy,3,coupling,14.501139380206732,1.0
+RMD_Circadian Rhythm Sleep Wake Disorder,PT_Speech Language Therapy,4,coupling,3.8033477368263098,1.0
+RMD_Circadian Rhythm Sleep Wake Disorder,PT_Regenerative Medicine Approaches,5,coupling,61.58910373586852,1.0
+RMD_Circadian Rhythm Sleep Wake Disorder,PT_Lithium Therapy,6,coupling,0.23151593235861817,1.0
+RMD_Circadian Rhythm Sleep Wake Disorder,PT_Neurofeedback Systems,7,coupling,0.3728284600469902,1.0
+RMD_Circadian Rhythm Sleep Wake Disorder,PT_Reality Testing Techniques,8,coupling,0.07435315228521899,1.0
+RMD_Cotard Syndrome,PT_Motivational Interviewing,1,coupling,51.08942155846028,1.0
+RMD_Cotard Syndrome,PT_Mood Stabilizers,2,coupling,84.89563124051453,1.0
+RMD_Cotard Syndrome,PT_Transcranial Magnetic Stimulation,3,coupling,243.85038205762487,1.0
+RMD_Cotard Syndrome,PT_Antidepressants,4,coupling,185.83049642213004,1.0
+RMD_Cotard Syndrome,PT_Cognitive Behavioral Therapy,5,coupling,230.54333726877212,1.0
+RMD_Cotard Syndrome,PT_Selective Serotonin Reuptake Inhibitors,6,coupling,89.37098099365218,1.0
+RMD_Cotard Syndrome,PT_Metaverse,7,coupling,2.6694403671080096,1.0
+RMD_Cotard Syndrome,PT_Digital Health Tools,8,coupling,9.618268563052428,1.0
+RMD_Cyclothymic Disorder,PT_Motivational Interviewing,1,coupling,51.08942155846028,1.0
+RMD_Cyclothymic Disorder,PT_Stimulant And Wake Promoting Agents,2,coupling,25.02093435276346,1.0
+RMD_Cyclothymic Disorder,PT_Emdr Therapy,3,coupling,31.603444893884973,1.0
+RMD_Cyclothymic Disorder,PT_Metaverse,4,coupling,2.6694403671080096,1.0
+RMD_Cyclothymic Disorder,PT_Cognitive Behavioral Therapy,5,coupling,230.54333726877212,1.0
+RMD_Cyclothymic Disorder,PT_Transcranial Magnetic Stimulation,6,coupling,243.85038205762487,1.0
+RMD_Cyclothymic Disorder,PT_Selective Serotonin Reuptake Inhibitors,7,coupling,89.37098099365218,1.0
+RMD_Cyclothymic Disorder,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Delusional Disorder,PT_Anxiolytic Medications,1,coupling,109.31999976192185,1.0
+RMD_Delusional Disorder,PT_Meditation And Relaxation Techniques,2,coupling,5.885019521864253,1.0
+RMD_Delusional Disorder,PT_Neuroplasticity Techniques,3,coupling,1.5653282212362258,1.0
+RMD_Delusional Disorder,PT_Expressive Writing And Journaling,4,coupling,1.7196466847053402,1.0
+RMD_Delusional Disorder,PT_Regenerative Medicine Approaches,5,coupling,61.58910373586852,1.0
+RMD_Delusional Disorder,PT_Digital Imaging Technologies For Brain Scanning,6,coupling,1.4579320275786976,1.0
+RMD_Delusional Disorder,PT_Voxel Based Lesion Symptom Mapping,7,coupling,4.42812138366688,1.0
+RMD_Delusional Disorder,PT_Vocal And Speech Biomarkers,8,coupling,0.27303934603075597,1.0
+RMD_Diogenes Syndrome,PT_Anticonvulsant Therapy,1,coupling,3.703285773977937,1.0
+RMD_Diogenes Syndrome,PT_Narrative Exposure Therapy,2,coupling,41.83577893306703,1.0
+RMD_Diogenes Syndrome,PT_Antipsychotic Medications,3,coupling,52.92023223127243,1.0
+RMD_Diogenes Syndrome,PT_Transference Focused Psychotherapy,4,coupling,9.78525111494212,1.0
+RMD_Diogenes Syndrome,PT_Clozapine Protocol,5,coupling,5.845164703589676,1.0
+RMD_Diogenes Syndrome,PT_Metaverse,6,coupling,2.6694403671080096,1.0
+RMD_Diogenes Syndrome,PT_Mindfulness Based Stress Reduction,7,coupling,61.36026192717899,1.0
+RMD_Diogenes Syndrome,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Disinhibited Social Engagement Disorder,PT_Narrative Exposure Therapy,1,coupling,41.83577893306703,1.0
+RMD_Disinhibited Social Engagement Disorder,PT_Naltrexone,2,coupling,14.856798968418369,1.0
+RMD_Disinhibited Social Engagement Disorder,PT_Transference Focused Psychotherapy,3,coupling,9.78525111494212,1.0
+RMD_Disinhibited Social Engagement Disorder,PT_Music Therapy,4,coupling,9.486083339192765,1.0
+RMD_Disinhibited Social Engagement Disorder,PT_Electroconvulsive Therapy,5,coupling,20.87111237528387,1.0
+RMD_Disinhibited Social Engagement Disorder,PT_Art Therapy,6,coupling,5.905425901174663,1.0
+RMD_Disinhibited Social Engagement Disorder,PT_Anticonvulsant Therapy,7,coupling,3.703285773977937,1.0
+RMD_Disinhibited Social Engagement Disorder,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Dissociative Amnesia,PT_Focused Ultrasound Therapy,1,coupling,1.7356971878753409,1.0
+RMD_Dissociative Amnesia,PT_Antidepressants,2,coupling,185.83049642213004,1.0
+RMD_Dissociative Amnesia,PT_Mood Stabilizers,3,coupling,84.89563124051453,1.0
+RMD_Dissociative Amnesia,PT_Traditional And Alternative Medicine Approaches,4,coupling,17.56052735219998,1.0
+RMD_Dissociative Amnesia,PT_Metaverse,5,coupling,2.6694403671080096,1.0
+RMD_Dissociative Amnesia,PT_Resting State Fmri,6,coupling,7.060273840005455,1.0
+RMD_Dissociative Amnesia,PT_Digital Health Tools,7,coupling,9.618268563052428,1.0
+RMD_Dissociative Amnesia,PT_Electroencephalography,8,coupling,196.72115849966346,1.0
+RMD_Dissociative Fugue,PT_Closed Loop Neurostimulation,1,coupling,20.026578227949962,1.0
+RMD_Dissociative Fugue,PT_Electroconvulsive Therapy,2,coupling,20.87111237528387,1.0
+RMD_Dissociative Fugue,PT_Fecal Microbiota Transplant,3,coupling,14.9814366039266,1.0
+RMD_Dissociative Fugue,PT_Stimulant And Wake Promoting Agents,4,coupling,25.02093435276346,1.0
+RMD_Dissociative Fugue,PT_Neuroprotective Agents,5,coupling,41.7172712620327,1.0
+RMD_Dissociative Fugue,PT_Hypnotherapy,6,coupling,11.816733332088559,1.0
+RMD_Dissociative Fugue,PT_Selective Serotonin Reuptake Inhibitors,7,coupling,89.37098099365218,1.0
+RMD_Dissociative Fugue,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Ekbom Syndrome,PT_Social Skills Training,1,coupling,32.019623837354395,1.0
+RMD_Ekbom Syndrome,PT_Secure Data Storage For Patient Records,2,coupling,0.18997881838848096,1.0
+RMD_Ekbom Syndrome,PT_Augmentative Communication Devices,3,coupling,0.8334379160919944,1.0
+RMD_Ekbom Syndrome,PT_Neurofeedback Systems,4,coupling,0.3728284600469902,1.0
+RMD_Ekbom Syndrome,PT_Digital Phenotyping,5,coupling,17.591852332470925,1.0
+RMD_Ekbom Syndrome,PT_Lithium Therapy,6,coupling,0.23151593235861817,1.0
+RMD_Ekbom Syndrome,PT_Memory Retrieval Techniques,7,coupling,0.16897207790310198,1.0
+RMD_Ekbom Syndrome,PT_Vocal And Speech Biomarkers,8,coupling,0.27303934603075597,1.0
+RMD_Erotomania,PT_Motivational Interviewing,1,coupling,51.08942155846028,1.0
+RMD_Erotomania,PT_Transcranial Direct Current Stimulation,2,coupling,32.27736119849385,1.0
+RMD_Erotomania,PT_Hypnotherapy,3,coupling,11.816733332088559,1.0
+RMD_Erotomania,PT_Stimulant And Wake Promoting Agents,4,coupling,25.02093435276346,1.0
+RMD_Erotomania,PT_Digital Therapeutics,5,coupling,14.738358545936071,1.0
+RMD_Erotomania,PT_Digital Phenotyping,6,coupling,17.591852332470925,1.0
+RMD_Erotomania,PT_Occupational Therapy,7,coupling,58.45976545235784,1.0
+RMD_Erotomania,PT_Neuroprotective Agents,8,coupling,41.7172712620327,1.0
+RMD_Factitious Disorder,PT_Closed Loop Neurostimulation,1,coupling,20.026578227949962,1.0
+RMD_Factitious Disorder,PT_Naltrexone,2,coupling,14.856798968418369,1.0
+RMD_Factitious Disorder,PT_Electroconvulsive Therapy,3,coupling,20.87111237528387,1.0
+RMD_Factitious Disorder,PT_Animal Assisted Therapy,4,coupling,6.123684375853989,1.0
+RMD_Factitious Disorder,PT_Neuroprotective Agents,5,coupling,41.7172712620327,1.0
+RMD_Factitious Disorder,PT_Stimulant And Wake Promoting Agents,6,coupling,25.02093435276346,1.0
+RMD_Factitious Disorder,PT_Transference Focused Psychotherapy,7,coupling,9.78525111494212,1.0
+RMD_Factitious Disorder,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Fregoli Delusion,PT_Mentalization Based Treatment,1,coupling,4.9315125117963206,1.0
+RMD_Fregoli Delusion,PT_Electroconvulsive Therapy,2,coupling,20.87111237528387,1.0
+RMD_Fregoli Delusion,PT_Animal Assisted Therapy,3,coupling,6.123684375853989,1.0
+RMD_Fregoli Delusion,PT_Naltrexone,4,coupling,14.856798968418369,1.0
+RMD_Fregoli Delusion,PT_Hypnotherapy,5,coupling,11.816733332088559,1.0
+RMD_Fregoli Delusion,PT_Cbt For Insomnia,6,coupling,3.1444966207426286,1.0
+RMD_Fregoli Delusion,PT_Immunotherapy For Neuropsychiatric Disorders,7,coupling,9.781975905506505,1.0
+RMD_Fregoli Delusion,PT_Social Skills Training,8,coupling,32.019623837354395,1.0
+RMD_Ganser Syndrome,PT_Machine Learning Neuroimaging,1,coupling,12.871072064790562,1.0
+RMD_Ganser Syndrome,PT_Cbt For Insomnia,2,coupling,3.1444966207426286,1.0
+RMD_Ganser Syndrome,PT_Immunotherapy For Neuropsychiatric Disorders,3,coupling,9.781975905506505,1.0
+RMD_Ganser Syndrome,PT_Transcranial Direct Current Stimulation,4,coupling,32.27736119849385,1.0
+RMD_Ganser Syndrome,PT_Deep Brain Stimulation,5,coupling,9.678038959087266,1.0
+RMD_Ganser Syndrome,PT_Social Skills Training,6,coupling,32.019623837354395,1.0
+RMD_Ganser Syndrome,PT_Fecal Microbiota Transplant,7,coupling,14.9814366039266,1.0
+RMD_Ganser Syndrome,PT_Hypnotherapy,8,coupling,11.816733332088559,1.0
+RMD_Hallucinogen Persisting Perception Disorder,PT_Narrative Exposure Therapy,1,coupling,41.83577893306703,1.0
+RMD_Hallucinogen Persisting Perception Disorder,PT_Music Therapy,2,coupling,9.486083339192765,1.0
+RMD_Hallucinogen Persisting Perception Disorder,PT_Emdr Therapy,3,coupling,31.603444893884973,1.0
+RMD_Hallucinogen Persisting Perception Disorder,PT_Stimulant And Wake Promoting Agents,4,coupling,25.02093435276346,1.0
+RMD_Hallucinogen Persisting Perception Disorder,PT_Neuroprotective Agents,5,coupling,41.7172712620327,1.0
+RMD_Hallucinogen Persisting Perception Disorder,PT_Cognitive Behavioral Therapy,6,coupling,230.54333726877212,1.0
+RMD_Hallucinogen Persisting Perception Disorder,PT_Transcranial Magnetic Stimulation,7,coupling,243.85038205762487,1.0
+RMD_Hallucinogen Persisting Perception Disorder,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Histrionic Personality Disorder,PT_Hypnotherapy,1,coupling,11.816733332088559,1.0
+RMD_Histrionic Personality Disorder,PT_Neuroprotective Agents,2,coupling,41.7172712620327,1.0
+RMD_Histrionic Personality Disorder,PT_Electroconvulsive Therapy,3,coupling,20.87111237528387,1.0
+RMD_Histrionic Personality Disorder,PT_Social Skills Training,4,coupling,32.019623837354395,1.0
+RMD_Histrionic Personality Disorder,PT_Immunotherapy For Neuropsychiatric Disorders,5,coupling,9.781975905506505,1.0
+RMD_Histrionic Personality Disorder,PT_Naltrexone,6,coupling,14.856798968418369,1.0
+RMD_Histrionic Personality Disorder,PT_Stimulant And Wake Promoting Agents,7,coupling,25.02093435276346,1.0
+RMD_Histrionic Personality Disorder,PT_Transference Focused Psychotherapy,8,coupling,9.78525111494212,1.0
+RMD_Hypergraphia,PT_Dialectical Behavior Therapy,1,coupling,45.32434091302976,1.0
+RMD_Hypergraphia,PT_Stimulant And Wake Promoting Agents,2,coupling,25.02093435276346,1.0
+RMD_Hypergraphia,PT_Antipsychotic Medications,3,coupling,52.92023223127243,1.0
+RMD_Hypergraphia,PT_Cognitive Behavioral Therapy,4,coupling,230.54333726877212,1.0
+RMD_Hypergraphia,PT_Transcranial Magnetic Stimulation,5,coupling,243.85038205762487,1.0
+RMD_Hypergraphia,PT_Metaverse,6,coupling,2.6694403671080096,1.0
+RMD_Hypergraphia,PT_Selective Serotonin Reuptake Inhibitors,7,coupling,89.37098099365218,1.0
+RMD_Hypergraphia,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Hyperthymesia,PT_Closed Loop Neurostimulation,1,coupling,20.026578227949962,1.0
+RMD_Hyperthymesia,PT_Electroconvulsive Therapy,2,coupling,20.87111237528387,1.0
+RMD_Hyperthymesia,PT_Hypnotherapy,3,coupling,11.816733332088559,1.0
+RMD_Hyperthymesia,PT_Stimulant And Wake Promoting Agents,4,coupling,25.02093435276346,1.0
+RMD_Hyperthymesia,PT_Fecal Microbiota Transplant,5,coupling,14.9814366039266,1.0
+RMD_Hyperthymesia,PT_Transference Focused Psychotherapy,6,coupling,9.78525111494212,1.0
+RMD_Hyperthymesia,PT_Selective Serotonin Reuptake Inhibitors,7,coupling,89.37098099365218,1.0
+RMD_Hyperthymesia,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Impulse Control Disorders,PT_Neuroprotective Agents,1,coupling,41.7172712620327,1.0
+RMD_Impulse Control Disorders,PT_Narrative Exposure Therapy,2,coupling,41.83577893306703,1.0
+RMD_Impulse Control Disorders,PT_Stimulant And Wake Promoting Agents,3,coupling,25.02093435276346,1.0
+RMD_Impulse Control Disorders,PT_Closed Loop Neurostimulation,4,coupling,20.026578227949962,1.0
+RMD_Impulse Control Disorders,PT_Naltrexone,5,coupling,14.856798968418369,1.0
+RMD_Impulse Control Disorders,PT_Electroconvulsive Therapy,6,coupling,20.87111237528387,1.0
+RMD_Impulse Control Disorders,PT_Transference Focused Psychotherapy,7,coupling,9.78525111494212,1.0
+RMD_Impulse Control Disorders,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Intermetamorphosis Syndrome,PT_Brain Computer Interface,1,coupling,97.56194532594782,1.0
+RMD_Intermetamorphosis Syndrome,PT_Anxiolytic Medications,2,coupling,109.31999976192185,1.0
+RMD_Intermetamorphosis Syndrome,PT_Trauma Focused Cbt,3,coupling,6.870253205870837,1.0
+RMD_Intermetamorphosis Syndrome,PT_Focused Ultrasound Therapy,4,coupling,1.7356971878753409,1.0
+RMD_Intermetamorphosis Syndrome,PT_Electroencephalography,5,coupling,196.72115849966346,1.0
+RMD_Intermetamorphosis Syndrome,PT_Digital Health Tools,6,coupling,9.618268563052428,1.0
+RMD_Intermetamorphosis Syndrome,PT_Resting State Fmri,7,coupling,7.060273840005455,1.0
+RMD_Intermetamorphosis Syndrome,PT_Prolonged Exposure Therapy,8,coupling,0.21736153774934627,1.0
+RMD_Kleine Levin Syndrome,PT_Animal Assisted Therapy,1,coupling,6.123684375853989,1.0
+RMD_Kleine Levin Syndrome,PT_Antipsychotic Medications,2,coupling,52.92023223127243,1.0
+RMD_Kleine Levin Syndrome,PT_Electroconvulsive Therapy,3,coupling,20.87111237528387,1.0
+RMD_Kleine Levin Syndrome,PT_Blockchain For Data Protection,4,coupling,0.1176853027132046,1.0
+RMD_Kleine Levin Syndrome,PT_Neuromodulation Techniques,5,coupling,9.307442484062893,1.0
+RMD_Kleine Levin Syndrome,PT_Personalized Medicine,6,coupling,131.77664660794946,1.0
+RMD_Kleine Levin Syndrome,PT_Naltrexone,7,coupling,14.856798968418369,1.0
+RMD_Kleine Levin Syndrome,PT_Mentalization Based Treatment,8,coupling,4.9315125117963206,1.0
+RMD_Kleptomania,PT_Machine Learning Neuroimaging,1,coupling,12.871072064790562,1.0
+RMD_Kleptomania,PT_Immunotherapy For Neuropsychiatric Disorders,2,coupling,9.781975905506505,1.0
+RMD_Kleptomania,PT_Hypnotherapy,3,coupling,11.816733332088559,1.0
+RMD_Kleptomania,PT_Social Skills Training,4,coupling,32.019623837354395,1.0
+RMD_Kleptomania,PT_Transcranial Direct Current Stimulation,5,coupling,32.27736119849385,1.0
+RMD_Kleptomania,PT_Electroconvulsive Therapy,6,coupling,20.87111237528387,1.0
+RMD_Kleptomania,PT_Digital Phenotyping,7,coupling,17.591852332470925,1.0
+RMD_Kleptomania,PT_Deep Brain Stimulation,8,coupling,9.678038959087266,1.0
+RMD_Koro,PT_Trauma Focused Cbt,1,coupling,6.870253205870837,1.0
+RMD_Koro,PT_Brain Computer Interface,2,coupling,97.56194532594782,1.0
+RMD_Koro,PT_Focused Ultrasound Therapy,3,coupling,1.7356971878753409,1.0
+RMD_Koro,PT_Mood Stabilizers,4,coupling,84.89563124051453,1.0
+RMD_Koro,PT_Anxiolytic Medications,5,coupling,109.31999976192185,1.0
+RMD_Koro,PT_Antidepressants,6,coupling,185.83049642213004,1.0
+RMD_Koro,PT_Resting State Fmri,7,coupling,7.060273840005455,1.0
+RMD_Koro,PT_Digital Health Tools,8,coupling,9.618268563052428,1.0
+RMD_Landau Kleffner Syndrome,PT_Cognitive Behavioral Therapy,1,coupling,230.54333726877212,1.0
+RMD_Landau Kleffner Syndrome,PT_Antidepressants,2,coupling,185.83049642213004,1.0
+RMD_Landau Kleffner Syndrome,PT_Brain Computer Interface,3,coupling,97.56194532594782,1.0
+RMD_Landau Kleffner Syndrome,PT_Metaverse,4,coupling,2.6694403671080096,1.0
+RMD_Landau Kleffner Syndrome,PT_Transcranial Magnetic Stimulation,5,coupling,243.85038205762487,1.0
+RMD_Landau Kleffner Syndrome,PT_Mood Stabilizers,6,coupling,84.89563124051453,1.0
+RMD_Landau Kleffner Syndrome,PT_Mindfulness Based Stress Reduction,7,coupling,61.36026192717899,1.0
+RMD_Landau Kleffner Syndrome,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Narcissistic Personality Disorder,PT_Narrative Exposure Therapy,1,coupling,41.83577893306703,1.0
+RMD_Narcissistic Personality Disorder,PT_Music Therapy,2,coupling,9.486083339192765,1.0
+RMD_Narcissistic Personality Disorder,PT_Transference Focused Psychotherapy,3,coupling,9.78525111494212,1.0
+RMD_Narcissistic Personality Disorder,PT_Emdr Therapy,4,coupling,31.603444893884973,1.0
+RMD_Narcissistic Personality Disorder,PT_Antipsychotic Medications,5,coupling,52.92023223127243,1.0
+RMD_Narcissistic Personality Disorder,PT_Metaverse,6,coupling,2.6694403671080096,1.0
+RMD_Narcissistic Personality Disorder,PT_Mindfulness Based Stress Reduction,7,coupling,61.36026192717899,1.0
+RMD_Narcissistic Personality Disorder,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Olfactory Reference Syndrome,PT_Naltrexone,1,coupling,14.856798968418369,1.0
+RMD_Olfactory Reference Syndrome,PT_Animal Assisted Therapy,2,coupling,6.123684375853989,1.0
+RMD_Olfactory Reference Syndrome,PT_Electroconvulsive Therapy,3,coupling,20.87111237528387,1.0
+RMD_Olfactory Reference Syndrome,PT_Mentalization Based Treatment,4,coupling,4.9315125117963206,1.0
+RMD_Olfactory Reference Syndrome,PT_Stimulant And Wake Promoting Agents,5,coupling,25.02093435276346,1.0
+RMD_Olfactory Reference Syndrome,PT_Hypnotherapy,6,coupling,11.816733332088559,1.0
+RMD_Olfactory Reference Syndrome,PT_Antipsychotic Medications,7,coupling,52.92023223127243,1.0
+RMD_Olfactory Reference Syndrome,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Othello Syndrome,PT_Animal Assisted Therapy,1,coupling,6.123684375853989,1.0
+RMD_Othello Syndrome,PT_Mentalization Based Treatment,2,coupling,4.9315125117963206,1.0
+RMD_Othello Syndrome,PT_Naltrexone,3,coupling,14.856798968418369,1.0
+RMD_Othello Syndrome,PT_Electroconvulsive Therapy,4,coupling,20.87111237528387,1.0
+RMD_Othello Syndrome,PT_Closed Loop Neurostimulation,5,coupling,20.026578227949962,1.0
+RMD_Othello Syndrome,PT_Neuroprotective Agents,6,coupling,41.7172712620327,1.0
+RMD_Othello Syndrome,PT_Antipsychotic Medications,7,coupling,52.92023223127243,1.0
+RMD_Othello Syndrome,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Palilalia,PT_Ketamine Therapy,1,coupling,30.14532969395367,1.0
+RMD_Palilalia,PT_Emdr Therapy,2,coupling,31.603444893884973,1.0
+RMD_Palilalia,PT_Metaverse,3,coupling,2.6694403671080096,1.0
+RMD_Palilalia,PT_Dialectical Behavior Therapy,4,coupling,45.32434091302976,1.0
+RMD_Palilalia,PT_Cognitive Behavioral Therapy,5,coupling,230.54333726877212,1.0
+RMD_Palilalia,PT_Transcranial Magnetic Stimulation,6,coupling,243.85038205762487,1.0
+RMD_Palilalia,PT_Personalized Medicine,7,coupling,131.77664660794946,1.0
+RMD_Palilalia,PT_Brain Computer Interface,8,coupling,97.56194532594782,1.0
+RMD_Postpartum Psychosis,PT_Mood Stabilizers,1,coupling,84.89563124051453,1.0
+RMD_Postpartum Psychosis,PT_Mindfulness Based Stress Reduction,2,coupling,61.36026192717899,1.0
+RMD_Postpartum Psychosis,PT_Metaverse,3,coupling,2.6694403671080096,1.0
+RMD_Postpartum Psychosis,PT_Antipsychotic Medications,4,coupling,52.92023223127243,1.0
+RMD_Postpartum Psychosis,PT_Traditional And Alternative Medicine Approaches,5,coupling,17.56052735219998,1.0
+RMD_Postpartum Psychosis,PT_Neuromodulation Techniques,6,coupling,9.307442484062893,1.0
+RMD_Postpartum Psychosis,PT_Electroencephalography,7,coupling,196.72115849966346,1.0
+RMD_Postpartum Psychosis,PT_Digital Health Tools,8,coupling,9.618268563052428,1.0
+RMD_Pyromania,PT_Digital Therapeutics,1,coupling,14.738358545936071,1.0
+RMD_Pyromania,PT_Deep Brain Stimulation,2,coupling,9.678038959087266,1.0
+RMD_Pyromania,PT_Digital Phenotyping,3,coupling,17.591852332470925,1.0
+RMD_Pyromania,PT_Schema Therapy,4,coupling,1.505295890729311,1.0
+RMD_Pyromania,PT_Neuroplasticity Techniques,5,coupling,1.5653282212362258,1.0
+RMD_Pyromania,PT_Anxiolytic Medications,6,coupling,109.31999976192185,1.0
+RMD_Pyromania,PT_Resting State Fmri,7,coupling,7.060273840005455,1.0
+RMD_Pyromania,PT_Vocal And Speech Biomarkers,8,coupling,0.27303934603075597,1.0
+RMD_Reactive Attachment Disorder,PT_Electroconvulsive Therapy,1,coupling,20.87111237528387,1.0
+RMD_Reactive Attachment Disorder,PT_Animal Assisted Therapy,2,coupling,6.123684375853989,1.0
+RMD_Reactive Attachment Disorder,PT_Cbt For Insomnia,3,coupling,3.1444966207426286,1.0
+RMD_Reactive Attachment Disorder,PT_Machine Learning Neuroimaging,4,coupling,12.871072064790562,1.0
+RMD_Reactive Attachment Disorder,PT_Immunotherapy For Neuropsychiatric Disorders,5,coupling,9.781975905506505,1.0
+RMD_Reactive Attachment Disorder,PT_Naltrexone,6,coupling,14.856798968418369,1.0
+RMD_Reactive Attachment Disorder,PT_Hypnotherapy,7,coupling,11.816733332088559,1.0
+RMD_Reactive Attachment Disorder,PT_Social Skills Training,8,coupling,32.019623837354395,1.0
+RMD_Reduplicative Paramnesia,PT_Blockchain For Data Protection,1,coupling,0.1176853027132046,1.0
+RMD_Reduplicative Paramnesia,PT_Animal Assisted Therapy,2,coupling,6.123684375853989,1.0
+RMD_Reduplicative Paramnesia,PT_Traditional And Alternative Medicine Approaches,3,coupling,17.56052735219998,1.0
+RMD_Reduplicative Paramnesia,PT_Personalized Medicine,4,coupling,131.77664660794946,1.0
+RMD_Reduplicative Paramnesia,PT_Naltrexone,5,coupling,14.856798968418369,1.0
+RMD_Reduplicative Paramnesia,PT_Neuromodulation Techniques,6,coupling,9.307442484062893,1.0
+RMD_Reduplicative Paramnesia,PT_Interpersonal Psychotherapy,7,coupling,14.501139380206732,1.0
+RMD_Reduplicative Paramnesia,PT_Antipsychotic Medications,8,coupling,52.92023223127243,1.0
+RMD_Rumination Disorder,PT_Cbt For Insomnia,1,coupling,3.1444966207426286,1.0
+RMD_Rumination Disorder,PT_Social Skills Training,2,coupling,32.019623837354395,1.0
+RMD_Rumination Disorder,PT_Machine Learning Neuroimaging,3,coupling,12.871072064790562,1.0
+RMD_Rumination Disorder,PT_Immunotherapy For Neuropsychiatric Disorders,4,coupling,9.781975905506505,1.0
+RMD_Rumination Disorder,PT_Hypnotherapy,5,coupling,11.816733332088559,1.0
+RMD_Rumination Disorder,PT_Deep Brain Stimulation,6,coupling,9.678038959087266,1.0
+RMD_Rumination Disorder,PT_Lithium Therapy,7,coupling,0.23151593235861817,1.0
+RMD_Rumination Disorder,PT_Speech Language Therapy,8,coupling,3.8033477368263098,1.0
+RMD_Savant Syndrome,PT_Naltrexone,1,coupling,14.856798968418369,1.0
+RMD_Savant Syndrome,PT_Closed Loop Neurostimulation,2,coupling,20.026578227949962,1.0
+RMD_Savant Syndrome,PT_Electroconvulsive Therapy,3,coupling,20.87111237528387,1.0
+RMD_Savant Syndrome,PT_Mentalization Based Treatment,4,coupling,4.9315125117963206,1.0
+RMD_Savant Syndrome,PT_Stimulant And Wake Promoting Agents,5,coupling,25.02093435276346,1.0
+RMD_Savant Syndrome,PT_Hypnotherapy,6,coupling,11.816733332088559,1.0
+RMD_Savant Syndrome,PT_Neuroprotective Agents,7,coupling,41.7172712620327,1.0
+RMD_Savant Syndrome,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Schizoaffective Disorder,PT_Narrative Exposure Therapy,1,coupling,41.83577893306703,1.0
+RMD_Schizoaffective Disorder,PT_Closed Loop Neurostimulation,2,coupling,20.026578227949962,1.0
+RMD_Schizoaffective Disorder,PT_Naltrexone,3,coupling,14.856798968418369,1.0
+RMD_Schizoaffective Disorder,PT_Music Therapy,4,coupling,9.486083339192765,1.0
+RMD_Schizoaffective Disorder,PT_Stimulant And Wake Promoting Agents,5,coupling,25.02093435276346,1.0
+RMD_Schizoaffective Disorder,PT_Electroconvulsive Therapy,6,coupling,20.87111237528387,1.0
+RMD_Schizoaffective Disorder,PT_Neuroprotective Agents,7,coupling,41.7172712620327,1.0
+RMD_Schizoaffective Disorder,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Schizotypal Personality Disorder,PT_Naltrexone,1,coupling,14.856798968418369,1.0
+RMD_Schizotypal Personality Disorder,PT_Electroconvulsive Therapy,2,coupling,20.87111237528387,1.0
+RMD_Schizotypal Personality Disorder,PT_Animal Assisted Therapy,3,coupling,6.123684375853989,1.0
+RMD_Schizotypal Personality Disorder,PT_Mentalization Based Treatment,4,coupling,4.9315125117963206,1.0
+RMD_Schizotypal Personality Disorder,PT_Neuroprotective Agents,5,coupling,41.7172712620327,1.0
+RMD_Schizotypal Personality Disorder,PT_Closed Loop Neurostimulation,6,coupling,20.026578227949962,1.0
+RMD_Schizotypal Personality Disorder,PT_Hypnotherapy,7,coupling,11.816733332088559,1.0
+RMD_Schizotypal Personality Disorder,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Selective Mutism,PT_Mood Stabilizers,1,coupling,84.89563124051453,1.0
+RMD_Selective Mutism,PT_Motivational Interviewing,2,coupling,51.08942155846028,1.0
+RMD_Selective Mutism,PT_Stimulant And Wake Promoting Agents,3,coupling,25.02093435276346,1.0
+RMD_Selective Mutism,PT_Metaverse,4,coupling,2.6694403671080096,1.0
+RMD_Selective Mutism,PT_Transcranial Magnetic Stimulation,5,coupling,243.85038205762487,1.0
+RMD_Selective Mutism,PT_Antidepressants,6,coupling,185.83049642213004,1.0
+RMD_Selective Mutism,PT_Cognitive Behavioral Therapy,7,coupling,230.54333726877212,1.0
+RMD_Selective Mutism,PT_Personalized Medicine,8,coupling,131.77664660794946,1.0
+RMD_Stendhal Syndrome,PT_Mood Stabilizers,1,coupling,84.89563124051453,1.0
+RMD_Stendhal Syndrome,PT_Transcranial Magnetic Stimulation,2,coupling,243.85038205762487,1.0
+RMD_Stendhal Syndrome,PT_Emdr Therapy,3,coupling,31.603444893884973,1.0
+RMD_Stendhal Syndrome,PT_Metaverse,4,coupling,2.6694403671080096,1.0
+RMD_Stendhal Syndrome,PT_Cognitive Behavioral Therapy,5,coupling,230.54333726877212,1.0
+RMD_Stendhal Syndrome,PT_Antidepressants,6,coupling,185.83049642213004,1.0
+RMD_Stendhal Syndrome,PT_Mindfulness Based Stress Reduction,7,coupling,61.36026192717899,1.0
+RMD_Stendhal Syndrome,PT_Selective Serotonin Reuptake Inhibitors,8,coupling,89.37098099365218,1.0
+RMD_Wendigo Psychosis,PT_Neuroplasticity Techniques,1,coupling,1.5653282212362258,1.0
+RMD_Wendigo Psychosis,PT_Anxiolytic Medications,2,coupling,109.31999976192185,1.0
+RMD_Wendigo Psychosis,PT_Antidepressants,3,coupling,185.83049642213004,1.0
+RMD_Wendigo Psychosis,PT_Virtual Reality Exposure Therapy,4,coupling,17.508885678634304,1.0
+RMD_Wendigo Psychosis,PT_Resting State Fmri,5,coupling,7.060273840005455,1.0
+RMD_Wendigo Psychosis,PT_Digital Health Tools,6,coupling,9.618268563052428,1.0
+RMD_Wendigo Psychosis,PT_Trauma Focused Cbt,7,coupling,6.870253205870837,1.0
+RMD_Wendigo Psychosis,PT_Vocal And Speech Biomarkers,8,coupling,0.27303934603075597,1.0

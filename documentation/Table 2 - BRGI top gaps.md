@@ -1,0 +1,25 @@
+# Table 2. Top 20 BRGI Gaps
+
+| Rank | RMD | PT | BRGI Score |
+| --- | --- | --- | --- |
+| 1 | Hallucinogen Persisting Perception Disorder | Memory Retrieval Techniques | 0.677 |
+| 2 | Antisocial Personality Disorder | Memory Retrieval Techniques | 0.6762 |
+| 3 | Postpartum Psychosis | Digital Imaging Technologies For Brain Scanning | 0.6626 |
+| 4 | Antisocial Personality Disorder | Lithium Therapy | 0.6575 |
+| 5 | Factitious Disorder | Cognitive Enhancement Programs | 0.6392 |
+| 6 | Factitious Disorder | Blockchain For Data Protection | 0.6304 |
+| 7 | Chronic Traumatic Encephalopathy | Blockchain For Data Protection | 0.6282 |
+| 8 | Dissociative Fugue | Vocal And Speech Biomarkers | 0.622 |
+| 9 | Antisocial Personality Disorder | Dietary Interventions And Supplements | 0.6064 |
+| 10 | Chronic Traumatic Encephalopathy | Dietary Interventions And Supplements | 0.5981 |
+| 11 | Selective Mutism | Deep Brain Stimulation | 0.5866 |
+| 12 | Selective Mutism | Transcranial Direct Current Stimulation | 0.5841 |
+| 13 | Schizotypal Personality Disorder | Cultural Psychiatry Interventions | 0.5838 |
+| 14 | Narcissistic Personality Disorder | Dietary Interventions And Supplements | 0.5814 |
+| 15 | Selective Mutism | Electroencephalography | 0.565 |
+| 16 | Hallucinogen Persisting Perception Disorder | Neurofeedback Systems | 0.5616 |
+| 17 | Body Integrity Dysphoria | Reality Testing Techniques | 0.5603 |
+| 18 | Body Integrity Dysphoria | Sleep Pattern Monitoring And Manipulation | 0.5513 |
+| 19 | Kleptomania | Speech Language Therapy | 0.5498 |
+| 20 | Selective Mutism | Brain Computer Interface | 0.5486 |
+

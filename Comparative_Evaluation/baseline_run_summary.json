@@ -1,0 +1,137 @@
+{
+  "generated_at": "2026-05-22 10:35:01",
+  "configuration": {
+    "epochs": 50,
+    "devices": [
+      "cuda:0"
+    ],
+    "trials": 1,
+    "repeats": 1,
+    "batch_size": 16,
+    "parallel": false
+  },
+  "counts": {
+    "total": 13,
+    "completed": 13,
+    "failed": 0
+  },
+  "models": {
+    "BMTGNN": {
+      "RAE": 6.9052,
+      "RSE": 5.9315,
+      "Corr": 0.0,
+      "Coverage": null,
+      "elapsed_time": 110.16212630271912,
+      "status": "completed",
+      "error": ""
+    },
+    "BR-MTGNN": {
+      "RAE": 0.250509,
+      "RSE": 0.428406,
+      "Corr": 0.912998,
+      "Coverage": 0.950296,
+      "elapsed_time": 27.65200710296631,
+      "status": "completed",
+      "error": ""
+    },
+    "LSTM_M": {
+      "RAE": 1.8674,
+      "RSE": 2.6753,
+      "Corr": 0.1805,
+      "Coverage": null,
+      "elapsed_time": 11.480913400650024,
+      "status": "completed",
+      "error": ""
+    },
+    "LSTM_U": {
+      "RAE": 1.2349,
+      "RSE": 2.2522,
+      "Corr": 0.2444,
+      "Coverage": null,
+      "elapsed_time": 14.316962480545044,
+      "status": "completed",
+      "error": ""
+    },
+    "MTGNN": {
+      "RAE": 6.5561,
+      "RSE": 5.6867,
+      "Corr": 0.0,
+      "Coverage": null,
+      "elapsed_time": 54.138052463531494,
+      "status": "completed",
+      "error": ""
+    },
+    "Transformer_M": {
+      "RAE": 2.7456,
+      "RSE": 3.9313,
+      "Corr": 0.0819,
+      "Coverage": null,
+      "elapsed_time": 15.569283246994019,
+      "status": "completed",
+      "error": ""
+    },
+    "Transformer_U": {
+      "RAE": 1.2718,
+      "RSE": 1.8306,
+      "Corr": 0.0198,
+      "Coverage": null,
+      "elapsed_time": 40.8489305973053,
+      "status": "completed",
+      "error": ""
+    },
+    "DCRNN": {
+      "RAE": 0.2548,
+      "RSE": 0.4305,
+      "Corr": 0.0,
+      "Coverage": null,
+      "elapsed_time": 6.61210823059082,
+      "status": "completed",
+      "error": ""
+    },
+    "AGCRN": {
+      "RAE": 0.5173,
+      "RSE": 0.9346,
+      "Corr": 0.1199,
+      "Coverage": null,
+      "elapsed_time": 7.057950496673584,
+      "status": "completed",
+      "error": ""
+    },
+    "PatchTST": {
+      "RAE": 0.355,
+      "RSE": 0.6743,
+      "Corr": 0.1449,
+      "Coverage": null,
+      "elapsed_time": 5.9447290897369385,
+      "status": "completed",
+      "error": ""
+    },
+    "TFT": {
+      "RAE": 0.3563,
+      "RSE": 0.642,
+      "Corr": 0.1901,
+      "Coverage": null,
+      "elapsed_time": 110.03082203865051,
+      "status": "completed",
+      "error": ""
+    },
+    "TimesFM": {
+      "RAE": 0.7154,
+      "RSE": 1.4051,
+      "Corr": 0.102,
+      "Coverage": null,
+      "elapsed_time": 29.69369101524353,
+      "status": "completed",
+      "error": ""
+    },
+    "Prophet": {
+      "RAE": 4.0637,
+      "RSE": 7.7073,
+      "Corr": 0.0,
+      "Coverage": null,
+      "elapsed_time": 0.332582950592041,
+      "status": "completed",
+      "error": ""
+    }
+  }
+}

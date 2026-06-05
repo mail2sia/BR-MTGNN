@@ -1,0 +1,31 @@
+--extra-index-url https://pypi.org/simple
+
+# Core DL stack (GPU)
+torch>=2.1
+torchvision
+torchaudio
+
+
+# Core scientific stack
+numpy>=1.23
+pandas>=1.5
+matplotlib>=3.7
+
+# Visualization
+seaborn
+
+# ML / stats
+scikit-learn
+statsmodels
+google-generativeai
+
+# LLM
+google-genai==2.7.0
+pydantic==2.12.5
+pydantic-core==2.46.4
+anthropic==0.105.2
+python-dotenv==1.2.2
+
+
+# Optional (for improved performance)
+accelerate>=0.20.0  # For faster training

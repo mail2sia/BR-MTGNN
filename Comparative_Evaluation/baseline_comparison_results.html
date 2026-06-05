@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Baseline Comparison Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 24px;
+            color: #222;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #2f6f4e;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f7f7f7;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .timestamp {
+            color: #666;
+            font-size: 0.9em;
+        }
+        .note {
+            background: #f2f6ff;
+            border-left: 4px solid #4a6fa5;
+            padding: 10px;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Baseline Comparison Results</h1>
+    <p class="timestamp">Generated: 2026-05-08 14:50:24</p>
+
+    <h2>Configuration</h2>
+    <ul>
+        <li><strong>Data:</strong> 264 timesteps × 190 features</li>
+        <li><strong>Train/Val/Test Split:</strong> 43% / 30% / 27%</li>
+        <li><strong>Features:</strong> 96 RMD + 89 PT + 5 other</li>
+    </ul>
+
+    <h2>Performance Metrics</h2>
+    <table border="1" class="dataframe results-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>RAE</th>
+      <th>RSE</th>
+      <th>Corr</th>
+      <th>Coverage</th>
+      <th>elapsed_time</th>
+      <th>status</th>
+    </tr>
+    <tr>
+      <th>Model</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>BR-MTGNN</th>
+      <td>0.219657</td>
+      <td>0.482352</td>
+      <td>0.883107</td>
+      <td>0.920146</td>
+      <td>18.294551</td>
+      <td>completed</td>
+    </tr>
+  </tbody>
+</table>
+
+    
+    <h2>Rankings by Metric</h2>
+    <p>Lower rank is better. Error metrics are ranked ascending; Corr and Coverage are ranked descending.</p>
+    <table border="1" class="dataframe results-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>RAE_rank</th>
+      <th>RSE_rank</th>
+      <th>Corr_rank</th>
+      <th>Coverage_rank</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>BR-MTGNN</th>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+  </tbody>
+</table>
+
+
+    <h2>Metric Legend</h2>
+    <ul>
+        <li><strong>MAE/RMSE/SMAPE/MAPE/RAE/RSE:</strong> Lower is better.</li>
+        <li><strong>Corr:</strong> Higher is better.</li>
+        <li><strong>Coverage:</strong> Target is usually near 0.95 for a 95% interval.</li>
+        <li><strong>MeanIntervalWidth:</strong> Lower is better only when coverage remains acceptable.</li>
+    </ul>
+</body>
+</html>

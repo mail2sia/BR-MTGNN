@@ -1,0 +1,356 @@
+[
+  {
+    "source": "clinical_global_blacklist",
+    "check": "hard_constraint",
+    "column": "PT_Clozapine Protocol_NoM",
+    "pt_name": "Clozapine Protocol",
+    "rows_zeroed": 66,
+    "action": "ZERO",
+    "reason": "Presence of Clozapine is medically inappropriate in this dataset and represents data noise."
+  },
+  {
+    "source": "clinical_blacklist",
+    "check": "hard_constraint",
+    "rmd_name": "Stendhal Syndrome",
+    "rmd_columns": [
+      "RMD_Stendhal Syndrome_NoM",
+      "RMD_Stendhal Syndrome_NoP"
+    ],
+    "column": "PT_Clozapine Protocol_NoM",
+    "pt_name": "Clozapine Protocol",
+    "rows_zeroed": 0,
+    "action": "ZERO",
+    "reason": "Hard clinical blacklist: Clozapine Protocol is not a plausible pairing for Stendhal Syndrome."
+  },
+  {
+    "source": "clinical_blacklist",
+    "check": "hard_constraint",
+    "rmd_name": "Stendhal Syndrome",
+    "rmd_columns": [
+      "RMD_Stendhal Syndrome_NoM",
+      "RMD_Stendhal Syndrome_NoP"
+    ],
+    "column": "PT_Antipsychotic Medications_NoM",
+    "pt_name": "Antipsychotic Medications",
+    "rows_zeroed": 264,
+    "action": "ZERO",
+    "reason": "Hard clinical blacklist: Antipsychotic Medications is not a plausible pairing for Stendhal Syndrome."
+  },
+  {
+    "source": "clinical_blacklist",
+    "check": "hard_constraint",
+    "rmd_name": "Stendhal Syndrome",
+    "rmd_columns": [
+      "RMD_Stendhal Syndrome_NoM",
+      "RMD_Stendhal Syndrome_NoP"
+    ],
+    "column": "PT_Electroconvulsive Therapy_NoM",
+    "pt_name": "Electroconvulsive Therapy",
+    "rows_zeroed": 216,
+    "action": "ZERO",
+    "reason": "Hard clinical blacklist: Electroconvulsive Therapy is not a plausible pairing for Stendhal Syndrome."
+  },
+  {
+    "source": "clinical_blacklist",
+    "check": "hard_constraint",
+    "rmd_name": "Koro",
+    "rmd_columns": [
+      "RMD_Koro_NoM",
+      "RMD_Koro_NoP"
+    ],
+    "column": "PT_Clozapine Protocol_NoM",
+    "pt_name": "Clozapine Protocol",
+    "rows_zeroed": 0,
+    "action": "ZERO",
+    "reason": "Hard clinical blacklist: Clozapine Protocol is not a plausible pairing for Koro."
+  },
+  {
+    "source": "clinical_blacklist",
+    "check": "hard_constraint",
+    "rmd_name": "Koro",
+    "rmd_columns": [
+      "RMD_Koro_NoM",
+      "RMD_Koro_NoP"
+    ],
+    "column": "PT_Digital Therapeutics_NoM",
+    "pt_name": "Digital Therapeutics",
+    "rows_zeroed": 108,
+    "action": "ZERO",
+    "reason": "Hard clinical blacklist: Digital Therapeutics is not a plausible pairing for Koro."
+  },
+  {
+    "source": "clinical_blacklist",
+    "check": "hard_constraint",
+    "rmd_name": "Koro",
+    "rmd_columns": [
+      "RMD_Koro_NoM",
+      "RMD_Koro_NoP"
+    ],
+    "column": "PT_Blockchain For Data Protection_NoM",
+    "pt_name": "Blockchain For Data Protection",
+    "rows_zeroed": 6,
+    "action": "ZERO",
+    "reason": "Hard clinical blacklist: Blockchain For Data Protection is not a plausible pairing for Koro."
+  },
+  {
+    "source": "clinical_blacklist",
+    "check": "hard_constraint",
+    "rmd_name": "Wendigo Psychosis",
+    "rmd_columns": [
+      "RMD_Wendigo Psychosis_NoM",
+      "RMD_Wendigo Psychosis_NoP"
+    ],
+    "column": "PT_Clozapine Protocol_NoM",
+    "pt_name": "Clozapine Protocol",
+    "rows_zeroed": 0,
+    "action": "ZERO",
+    "reason": "Hard clinical blacklist: Clozapine Protocol is not a plausible pairing for Wendigo Psychosis."
+  },
+  {
+    "source": "clinical_blacklist",
+    "check": "hard_constraint",
+    "rmd_name": "Wendigo Psychosis",
+    "rmd_columns": [
+      "RMD_Wendigo Psychosis_NoM",
+      "RMD_Wendigo Psychosis_NoP"
+    ],
+    "column": "PT_Digital Therapeutics_NoM",
+    "pt_name": "Digital Therapeutics",
+    "rows_zeroed": 0,
+    "action": "ZERO",
+    "reason": "Hard clinical blacklist: Digital Therapeutics is not a plausible pairing for Wendigo Psychosis."
+  },
+  {
+    "source": "clinical_blacklist",
+    "check": "hard_constraint",
+    "rmd_name": "Wendigo Psychosis",
+    "rmd_columns": [
+      "RMD_Wendigo Psychosis_NoM",
+      "RMD_Wendigo Psychosis_NoP"
+    ],
+    "column": "PT_Blockchain For Data Protection_NoM",
+    "pt_name": "Blockchain For Data Protection",
+    "rows_zeroed": 0,
+    "action": "ZERO",
+    "reason": "Hard clinical blacklist: Blockchain For Data Protection is not a plausible pairing for Wendigo Psychosis."
+  },
+  {
+    "source": "clinical_blacklist",
+    "check": "hard_constraint",
+    "rmd_name": "Factitious Disorder",
+    "rmd_columns": [
+      "RMD_Factitious Disorder_NoM",
+      "RMD_Factitious Disorder_NoP"
+    ],
+    "column": "PT_Digital Therapeutics_NoM",
+    "pt_name": "Digital Therapeutics",
+    "rows_zeroed": 0,
+    "action": "ZERO",
+    "reason": "Hard clinical blacklist: Digital Therapeutics is not a plausible pairing for Factitious Disorder."
+  },
+  {
+    "source": "clinical_blacklist",
+    "check": "hard_constraint",
+    "rmd_name": "Factitious Disorder",
+    "rmd_columns": [
+      "RMD_Factitious Disorder_NoM",
+      "RMD_Factitious Disorder_NoP"
+    ],
+    "column": "PT_Blockchain For Data Protection_NoM",
+    "pt_name": "Blockchain For Data Protection",
+    "rows_zeroed": 0,
+    "action": "ZERO",
+    "reason": "Hard clinical blacklist: Blockchain For Data Protection is not a plausible pairing for Factitious Disorder."
+  },
+  {
+    "source": "clinical_blacklist",
+    "check": "hard_constraint",
+    "rmd_name": "Body Integrity Dysphoria",
+    "rmd_columns": [
+      "RMD_Body Integrity Dysphoria_NoM",
+      "RMD_Body Integrity Dysphoria_NoP"
+    ],
+    "column": "PT_Clozapine Protocol_NoM",
+    "pt_name": "Clozapine Protocol",
+    "rows_zeroed": 0,
+    "action": "ZERO",
+    "reason": "Hard clinical blacklist: Clozapine Protocol is not a plausible pairing for Body Integrity Dysphoria."
+  },
+  {
+    "source": "clinical_blacklist",
+    "check": "hard_constraint",
+    "rmd_name": "Body Integrity Dysphoria",
+    "rmd_columns": [
+      "RMD_Body Integrity Dysphoria_NoM",
+      "RMD_Body Integrity Dysphoria_NoP"
+    ],
+    "column": "PT_Antipsychotic Medications_NoM",
+    "pt_name": "Antipsychotic Medications",
+    "rows_zeroed": 0,
+    "action": "ZERO",
+    "reason": "Hard clinical blacklist: Antipsychotic Medications is not a plausible pairing for Body Integrity Dysphoria."
+  },
+  {
+    "source": "clinical_blacklist",
+    "check": "hard_constraint",
+    "rmd_name": "Savant Syndrome",
+    "rmd_columns": [
+      "RMD_Savant Syndrome_NoM",
+      "RMD_Savant Syndrome_NoP"
+    ],
+    "column": "PT_Clozapine Protocol_NoM",
+    "pt_name": "Clozapine Protocol",
+    "rows_zeroed": 0,
+    "action": "ZERO",
+    "reason": "Hard clinical blacklist: Clozapine Protocol is not a plausible pairing for Savant Syndrome."
+  },
+  {
+    "source": "clinical_blacklist",
+    "check": "hard_constraint",
+    "rmd_name": "Savant Syndrome",
+    "rmd_columns": [
+      "RMD_Savant Syndrome_NoM",
+      "RMD_Savant Syndrome_NoP"
+    ],
+    "column": "PT_Electroconvulsive Therapy_NoM",
+    "pt_name": "Electroconvulsive Therapy",
+    "rows_zeroed": 0,
+    "action": "ZERO",
+    "reason": "Hard clinical blacklist: Electroconvulsive Therapy is not a plausible pairing for Savant Syndrome."
+  },
+  {
+    "source": "clinical_blacklist",
+    "check": "hard_constraint",
+    "rmd_name": "Hypergraphia",
+    "rmd_columns": [
+      "RMD_Hypergraphia_NoM",
+      "RMD_Hypergraphia_NoP"
+    ],
+    "column": "PT_Antipsychotic Medications_NoM",
+    "pt_name": "Antipsychotic Medications",
+    "rows_zeroed": 0,
+    "action": "ZERO",
+    "reason": "Hard clinical blacklist: Antipsychotic Medications is not a plausible pairing for Hypergraphia."
+  },
+  {
+    "source": "gemini_master_audit",
+    "check": "magnitude",
+    "column": "PT_Brain Computer Interface_NoM",
+    "pt_name": "Brain Computer Interface",
+    "implausible_before_year": 2005,
+    "confidence": "high",
+    "gemini_reasoning": "The concept of Brain-Computer Interfaces (BCI) dates back to the 1970s, with significant research beginning in the 1990s and early 2000s. Early non-zero values from 2004 are plausible. The maximum value of 281.0 in 2004 is slightly above the typical range for a rare mental disease context (0-200) but not entirely implausible for an emerging field garnering research interest, especially if it's a count of publications or grants. Given it's early in the dataset, it warrants a flag for magnitude. No duplication suspected.",
+    "search_evidence": "The term 'brain-computer interface' was coined in the 1970s. Significant research and development in BCI accelerated in the 1990s and 2000s.",
+    "action": "flag_magnitude"
+  },
+  {
+    "source": "gemini_master_audit",
+    "check": "anachronism",
+    "column": "PT_Fecal Microbiota Transplant_NoM",
+    "pt_name": "Fecal Microbiota Transplant",
+    "first_valid_year": 2023,
+    "confidence": "high",
+    "gemini_reasoning": "While FMT has ancient origins and modern use for C. difficile from 1958, its application and research for *mental health disorders* is a very recent development. The first controlled human evidence for FMT in treating a mental disorder (depression) was published in January 2023. Therefore, non-zero values before this year in a mental disease dataset are anachronistic. The observed magnitudes (max 50.0, mean 2.133) are plausible post-2023.",
+    "search_evidence": "FMT for mental disorders is a relatively novel area of research. The first controlled human study for depression was published in January 2023.",
+    "rows_zeroed": 264
+  },
+  {
+    "source": "gemini_master_audit",
+    "check": "anachronism",
+    "column": "PT_Metaverse_NoM",
+    "pt_name": "Metaverse",
+    "first_valid_year": 2021,
+    "confidence": "high",
+    "gemini_reasoning": "The term 'Metaverse' was coined in 1992, but its widespread public recognition and real-world clinical adoption, especially for mental health, is a very recent phenomenon, largely gaining traction around 2021 with Meta's rebranding. Therefore, non-zero data appearing before 2021, particularly with a high max_value of 1418.0, is highly anachronistic and implausible for a rare mental disease context. This magnitude is far beyond typical research counts.",
+    "search_evidence": "The term 'metaverse' was coined by Neal Stephenson in his 1992 novel 'Snow Crash'. Widespread public interest and significant clinical adoption, especially for mental health, began around 2021.",
+    "rows_zeroed": 264
+  },
+  {
+    "source": "gemini_master_audit",
+    "check": "magnitude",
+    "column": "PT_Metaverse_NoM",
+    "pt_name": "Metaverse",
+    "implausible_before_year": 2021,
+    "confidence": "high",
+    "gemini_reasoning": "The term 'Metaverse' was coined in 1992, but its widespread public recognition and real-world clinical adoption, especially for mental health, is a very recent phenomenon, largely gaining traction around 2021 with Meta's rebranding. Therefore, non-zero data appearing before 2021, particularly with a high max_value of 1418.0, is highly anachronistic and implausible for a rare mental disease context. This magnitude is far beyond typical research counts.",
+    "search_evidence": "The term 'metaverse' was coined by Neal Stephenson in his 1992 novel 'Snow Crash'. Widespread public interest and significant clinical adoption, especially for mental health, began around 2021.",
+    "action": "flag_magnitude"
+  },
+  {
+    "source": "gemini_master_audit",
+    "check": "magnitude",
+    "column": "PT_Personalized Medicine_NoM",
+    "pt_name": "Personalized Medicine",
+    "implausible_before_year": 2004,
+    "confidence": "high",
+    "gemini_reasoning": "The concept of Personalized Medicine emerged in its modern form in the late 1990s and early 2000s, catalyzed by genomics, making its presence in 2004 plausible. However, a maximum monthly count of 783.0 and an annual mean of 148.379 in 2004 for a rare mental disease context are implausibly high, exceeding the typical 0-200 range.",
+    "search_evidence": "Term 'personalized medicine' appeared in print in 1999 (Wall Street Journal, The Oncologist); gained significant momentum following the mapping of the human genome in 2003 (EBSCO, Britannica).",
+    "action": "flag_magnitude"
+  },
+  {
+    "source": "gemini_master_audit",
+    "check": "anachronism",
+    "column": "PT_Privacy Preserving Ai In Digital Mental Health_NoM",
+    "pt_name": "Privacy Preserving Ai In Digital Mental Health",
+    "first_valid_year": 2018,
+    "confidence": "high",
+    "gemini_reasoning": "The convergence of 'Privacy Preserving AI' and 'Digital Mental Health' represents a highly specialized and recent technological advancement. Privacy-preserving AI techniques gained significant research attention and adoption only after 2015-2018. Therefore, any non-zero data in 2004 is anachronistic.",
+    "search_evidence": "Privacy-preserving AI concepts and their significant application in digital health largely emerged in the mid-to-late 2010s and early 2020s, with federated learning and differential privacy gaining prominence around 2016-2018 (General knowledge, Google Scholar trends for these terms).",
+    "rows_zeroed": 264
+  },
+  {
+    "source": "gemini_master_audit",
+    "check": "anachronism",
+    "column": "PT_Psilocybin Assisted Therapy_NoM",
+    "pt_name": "Psilocybin Assisted Therapy",
+    "first_valid_year": 2006,
+    "confidence": "high",
+    "gemini_reasoning": "While earlier psilocybin research existed, the modern re-emergence of Psilocybin Assisted Therapy as a legitimate clinical research area for mental health treatment began in the mid-2000s, with therapeutic trials gaining traction post-2006. Therefore, non-zero activity in 2004 is anachronistic, although the low magnitudes suggest only nascent activity.",
+    "search_evidence": "Modern clinical research into psilocybin for therapeutic use began to re-emerge in the early 2000s, with trials involving patient populations typically starting after 2006 (General knowledge, Johns Hopkins research timeline, review articles on psychedelic research).",
+    "rows_zeroed": 264
+  },
+  {
+    "source": "gemini_master_audit",
+    "check": "magnitude",
+    "column": "PT_Regenerative Medicine Approaches_NoM",
+    "pt_name": "Regenerative Medicine Approaches",
+    "implausible_before_year": 2004,
+    "confidence": "high",
+    "gemini_reasoning": "The field of Regenerative Medicine emerged in the 1990s and was an active research area by 2004, making its presence plausible. However, a maximum monthly count of 320.0 in 2004 for its application to a rare mental disease is quite high, exceeding the typical 0-200 range for such niche research in early years.",
+    "search_evidence": "Term coined by Leland Kaiser in 1992 (Wikipedia, Cook MyoSite); gained significant scientific momentum in the late 1990s and early 2000s (PMC, Royal Society Publishing, StimLabs).",
+    "action": "flag_magnitude"
+  },
+  {
+    "source": "gemini_master_audit",
+    "check": "anachronism",
+    "column": "PT_Sleep Pattern Monitoring And Manipulation_NoM",
+    "pt_name": "Sleep Pattern Monitoring And Manipulation",
+    "first_valid_year": 2010,
+    "confidence": "high",
+    "gemini_reasoning": "While basic sleep monitoring (polysomnography, actigraphy) existed earlier, the concept of 'Sleep Pattern Monitoring And Manipulation' using modern technology for mental health, particularly consumer-grade or advanced digital interventions, gained significant traction from the early 2010s. Therefore, non-zero values in 2004 are anachronistic. Magnitudes are low (mean 0.038, max 2.0).",
+    "search_evidence": "Consumer wearable sleep trackers and smartphone apps gained traction in the early 2010s [1, 5].",
+    "rows_zeroed": 264
+  },
+  {
+    "source": "gemini_master_audit",
+    "check": "anachronism",
+    "column": "PT_Smart Wearable Mental Health Trackers_NoM",
+    "pt_name": "Smart Wearable Mental Health Trackers",
+    "first_valid_year": 2015,
+    "confidence": "high",
+    "gemini_reasoning": "Smart wearable mental health trackers, distinct from basic fitness trackers, specifically for tracking mood, stress, and emotional well-being using physiological data, largely emerged and gained significant interest from around 2015 as the technology matured. Therefore, non-zero values in 2004 are anachronistic. Magnitudes are low (mean 1.841, max 22.0).",
+    "search_evidence": "Wearable tech for mental health gained momentum from around 2015 [1, 5, 6, 9, 14, 17].",
+    "rows_zeroed": 264
+  },
+  {
+    "source": "gemini_master_audit",
+    "check": "anachronism",
+    "column": "PT_Vocal And Speech Biomarkers_NoM",
+    "pt_name": "Vocal And Speech Biomarkers",
+    "first_valid_year": 2020,
+    "confidence": "high",
+    "gemini_reasoning": "The application of 'Vocal And Speech Biomarkers' leveraging AI for clinical diagnosis is a very recent field, with significant clinical adoption and integration into clinical trials primarily beginning around 2024-2025. Early findings linking vocal biomarkers to COVID-19 were reported in June 2020. Therefore, data before 2020 would be anachronistic. The extremely low annual mean (0.042) and maximum value (3.0) are plausible for an emerging technology in its nascent stage, indicating early-stage research or very limited pilot data within the plausible timeframe. No duplication is suspected.",
+    "search_evidence": "Ambient listening tools gained popularity among clinicians in 2024 and are expected to continue in 2025; clinical trials began incorporating vocal biomarker tools in 2025; early findings linking vocal biomarkers to COVID-19 were reported in June 2020.",
+    "rows_zeroed": 264
+  }
+]

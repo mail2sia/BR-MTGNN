@@ -1,0 +1,26 @@
+{
+  "model_path": "model/Bayesian/o_model.pt",
+  "hp_path": "model/Bayesian/hp.txt",
+  "metadata_path": "model/Bayesian/metadata.json",
+  "raw_data_csv": "data/sm_data.csv",
+  "data_csv_for_model": "model/Bayesian/forecast/spike_capped_input/spike_capped_input.csv",
+  "capped_input_path": "model/Bayesian/forecast/spike_capped_input/spike_capped_input.csv",
+  "spike_audit_rows": 1075,
+  "nodes_csv": "data/data.csv",
+  "forecast_csv": "model/Bayesian/forecast/forecast_36m.csv",
+  "mc_samples_path": "model/Bayesian/forecast/mc_samples_36m.npy",
+  "horizon": 36,
+  "seq_in_len": 10,
+  "mc_samples": 200,
+  "alpha": 0.1,
+  "conformal_extra": 0.0,
+  "num_nodes": 137,
+  "out_channels": 1,
+  "channels": [
+    "TDB"
+  ],
+  "device": "cpu",
+  "spike_jump_threshold": 50.0,
+  "spike_reduction_fraction": 0.3,
+  "spike_lookback": 3
+}

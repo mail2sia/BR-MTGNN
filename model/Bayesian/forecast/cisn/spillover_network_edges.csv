@@ -1,0 +1,4 @@
+source_rmd,target_rmd,spillover_weight
+Intermetamorphosis Syndrome,Othello Syndrome,0.30859598491864954
+Intermetamorphosis Syndrome,Savant Syndrome,0.23424202718447215
+Othello Syndrome,Savant Syndrome,0.1939802249552318

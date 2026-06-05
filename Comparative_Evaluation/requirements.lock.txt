@@ -1,0 +1,25 @@
+# Core DL stack
+torch>=2.1
+torchvision
+torchaudio
+
+# Core scientific stack
+numpy>=1.23
+pandas>=1.5
+scipy>=1.9
+matplotlib>=3.7
+
+# Visualization
+seaborn
+
+# ML / stats
+scikit-learn
+statsmodels
+
+# HuggingFace — required to download the TimesFM 1.0 pretrained checkpoint
+huggingface_hub>=0.23
+
+# Prophet — classical probabilistic univariate baseline (per-node additive model)
+# Stan backend is bundled via cmdstanpy; no separate Stan install required
+prophet>=1.3
+cmdstanpy>=1.3
