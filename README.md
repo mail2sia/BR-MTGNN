@@ -1,6 +1,6 @@
-# BR-MTGNN: Bayesian-Conformal Temporal Graph Forecasting for RMD/PT Results
+# BR-MTGNN: Bayesian Residual-Calibrated Temporal Graph Forecasting for RMD/PT Results
 
-BR-MTGNN forecasts rare mental disease (RMD) and pertinent technology (PT) trajectories over a 36-month horizon, then converts the forecasts into BRGI/CISN decision-support outputs for manuscript tables and figures.
+**Bayesian Residual-Calibrated Multivariate Temporal Graph Neural Network (BR-MTGNN)** forecasts rare mental disease (RMD) and pertinent technology (PT) trajectories over a 36-month horizon, then converts the forecasts into BRGI/CISN decision-support outputs for manuscript tables and figures.
 
 Current result set rebuilt on **2026-06-05** (date-based split and decision map regeneration) from the pipeline under `B-MTGNN/BR_MTGNN`.
 
@@ -408,6 +408,8 @@ Default training uses `--use_tdb_input`, where the model predicts a combined RMD
 
 ## Model and Uncertainty
 
+### Architecture
+
 Key model features:
 
 - Dilated temporal convolution plus graph convolution.
@@ -416,12 +418,34 @@ Key model features:
 - MC-Dropout uncertainty plus conformal residual calibration.
 - Chronological train/validation/test split with no random shuffling.
 
-Conformal interval formula:
+### BR-MTGNN: Technical Definition
+
+**BR-MTGNN** = **Bayesian Residual-Calibrated Multivariate Temporal Graph Neural Network**
+
+The method combines:
+
+1. **Bayesian component:** MC-Dropout (Gal & Ghahramani, 2016) for epistemic uncertainty estimation
+   - Multiple forward passes during inference with dropout active
+   - Computes mean and std from MC samples
+
+2. **Residual-Calibrated component:** One-time conformal quantile correction
+   - Conformal quantile computed from validation prediction **residuals**: `q = quantile(|y_true - y_pred|, 1-α)`
+   - Applied uniformly to all test predictions
+   - **Not adaptive or online**—quantile fixed after validation
+
+### Prediction Intervals
+
+Conformal calibrated prediction interval formula:
 
 ```text
-lower = mean - 1.96 * mc_std - q
-upper = mean + 1.96 * mc_std + q
+lower = mean - 1.96 * mc_std - q_residual
+upper = mean + 1.96 * mc_std + q_residual
 ```
+
+Where:
+- `mean`: Ensemble mean from MC-dropout
+- `mc_std`: Ensemble standard deviation from MC-dropout  
+- `q_residual`: Conformal quantile computed from validation residuals
 
 Separate calibration quantiles are stored for RMD, PT, and NoP/TDB groups in `model/Bayesian/metadata.json`.
 
@@ -459,12 +483,4 @@ Gemini quota or API errors:
 - For production submission, use `--no_cache` with Gemini key to ensure fresh, comprehensive audit aligned with date-based split.
 
 ## Citation
-
-```bibtex
-@software{br_mtgnn_2026,
-  title  = {BR-MTGNN: Bayesian-Conformal Temporal Graph Forecasting for RMD/PT Decision Support},
-  author = {Ahsan, S.},
-  year   = {2026},
-  url    = {https://github.com/yourusername/BR_MTGNN}
-}
 ```
